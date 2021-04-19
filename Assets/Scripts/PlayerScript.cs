@@ -17,7 +17,7 @@ public class PlayerScript : MonoBehaviour
 	{
 		Debug.Log("Player Collided");
 		numHits++;
-		MeshRenderer meshRenderer = GetComponent<MeshRenderer>();
-		meshRenderer.material.color = new Color(255, 0, 0);
+		//MeshRenderer meshRenderer = GetComponent<MeshRenderer>();
+		//meshRenderer.material.color = new Color(255, 0, 0);
 	}
 }

@@ -36,13 +36,13 @@ public class ControlMgr : MonoBehaviour
 		if (Input.GetKeyDown(KeyCode.UpArrow))
 		{
 			Vector3 newPos = player.transform.localPosition;
-			newPos.y += 1;
+			newPos.y += 4;
 			player.transform.localPosition = newPos;
 		}
 		else if (Input.GetKeyDown(KeyCode.DownArrow))
 		{
 			Vector3 newPos = player.transform.localPosition;
-			newPos.y -= 1;
+			newPos.y -= 4;
 			player.transform.localPosition = newPos;
 		}
 	}
