@@ -8,10 +8,9 @@ public class BackgroundMovement : MonoBehaviour
 
 	public float movementRate = 1.0f;
 	public float parallaxSmoothing = 1.0f;
-	//public Transform[] backgrounds;
-	//public float[] parallaxScales;
 	public List<Transform> backgrounds;
-	public List<float> parallaxScales;
+
+	private List<float> parallaxScales;
 
 	private void Awake()
 	{
@@ -20,27 +19,15 @@ public class BackgroundMovement : MonoBehaviour
 
 	private void Start()
 	{
-		parallaxScales = new List<float>(); //new float[backgrounds.Count];
+		parallaxScales = new List<float>();
 		for (int i = 0; i < backgrounds.Count; i++)
 		{
 			parallaxScales.Add(backgrounds[i].position.z * -1.0f);
-			//parallaxScales[i] = backgrounds[i].position.z * -1.0f;
 		}
 	}
 
 	private void Update()
 	{
-		//for (int i = 0; i < backgrounds.Count; i++)
-		//{
-		//	// parallax is opposite of camera movement
-		//	float parallax = (previousCamPos.x - cam.position.x) * parallaxScales[i];
-		//	float backgroundTargetPositionX = backgrounds[i].position.x + parallax;
-		//	Vector3 backgroundTargetPosition = new Vector3(backgroundTargetPositionX, backgrounds[i].position.y, backgrounds[i].position.z);
-
-		//	// smooth position changes
-		//	backgrounds[i].position = Vector3.Lerp(backgrounds[i].position, backgroundTargetPosition, smoothing * Time.deltaTime);
-		//}
-
 		for (int i = 0; i < backgrounds.Count; i++)
 		{
 			Transform t = backgrounds[i];
