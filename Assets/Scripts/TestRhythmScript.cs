@@ -15,7 +15,10 @@ public class TestRhythmScript : MonoBehaviour
 
 	private void Start()
 	{
-        song = new Song(120, PlayerObject.transform.localPosition.x, transform.localPosition.x);
+        // inverted alps is *almost* exactly 159.5 bpm
+        // i see why Osu! uses start times instead, it isn't prone to desync
+        // the issue is finding those start times...
+        song = new Song(160, PlayerObject.transform.localPosition.x, transform.localPosition.x);
 
         float beat = 0.0f;
         float twoMeasureOffset = 0.0f;
@@ -23,10 +26,13 @@ public class TestRhythmScript : MonoBehaviour
         {
             twoMeasureOffset = 8.0f;
             song.AddFiringPoint(beat + 1.0f, twoMeasureOffset, true); // this way you can explicitly set which beat the projectile is shot on
+            song.AddFiringPoint(beat + 1.5f, twoMeasureOffset, false);
             song.AddFiringPoint(beat + 2.0f, twoMeasureOffset, false);
+            song.AddFiringPoint(beat + 2.5f, twoMeasureOffset, false);
             song.AddFiringPoint(beat + 3.0f, twoMeasureOffset, false);
             song.AddFiringPoint(beat + 3.5f, twoMeasureOffset, false);
             song.AddFiringPoint(beat + 4.0f, twoMeasureOffset, false);
+            song.AddFiringPoint(beat + 4.5f, twoMeasureOffset, false);
 
             song.AddFiringPoint(beat + 5.0f, twoMeasureOffset, true);
             song.AddFiringPoint(beat + 5.5f, twoMeasureOffset, false);
