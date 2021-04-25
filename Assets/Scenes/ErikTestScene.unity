@@ -1026,6 +1026,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectilePrefab: {fileID: 6325460579792496004, guid: 11ef4fe42588bf04d88fa3c19716637a,
     type: 3}
+  reflectableProjectilePrefab: {fileID: 6770498521950492011, guid: 37b5935f471ffd54eaabbb02c6198cd0,
+    type: 3}
   PlayerObject: {fileID: 1426093388}
 --- !u!135 &2009615823
 SphereCollider:

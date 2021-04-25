@@ -5,6 +5,7 @@ using UnityEngine;
 public class TestRhythmScript : MonoBehaviour
 {
     public GameObject projectilePrefab;
+    public GameObject reflectableProjectilePrefab;
     public GameObject PlayerObject;
 
     private float timer = 0.0f;
@@ -21,20 +22,20 @@ public class TestRhythmScript : MonoBehaviour
         for(int i = 0; i < 10; i++)
         {
             twoMeasureOffset = 8.0f;
-            song.AddFiringPoint(beat + 1.0f, twoMeasureOffset); // this way you can explicitly set which beat the projectile is shot on
-            song.AddFiringPoint(beat + 2.0f, twoMeasureOffset);
-            song.AddFiringPoint(beat + 3.0f, twoMeasureOffset);
-            song.AddFiringPoint(beat + 3.5f, twoMeasureOffset);
-            song.AddFiringPoint(beat + 4.0f, twoMeasureOffset);
+            song.AddFiringPoint(beat + 1.0f, twoMeasureOffset, true); // this way you can explicitly set which beat the projectile is shot on
+            song.AddFiringPoint(beat + 2.0f, twoMeasureOffset, false);
+            song.AddFiringPoint(beat + 3.0f, twoMeasureOffset, false);
+            song.AddFiringPoint(beat + 3.5f, twoMeasureOffset, false);
+            song.AddFiringPoint(beat + 4.0f, twoMeasureOffset, false);
 
-            song.AddFiringPoint(beat + 5.0f, twoMeasureOffset);
-            song.AddFiringPoint(beat + 5.5f, twoMeasureOffset);
-            song.AddFiringPoint(beat + 6.0f, twoMeasureOffset);
-            song.AddFiringPoint(beat + 6.5f, twoMeasureOffset);
-            song.AddFiringPoint(beat + 7.0f, twoMeasureOffset);
-            song.AddFiringPoint(beat + 7.5f, twoMeasureOffset);
-            song.AddFiringPoint(beat + 8.0f, twoMeasureOffset);
-            song.AddFiringPoint(beat + 8.5f, twoMeasureOffset);
+            song.AddFiringPoint(beat + 5.0f, twoMeasureOffset, true);
+            song.AddFiringPoint(beat + 5.5f, twoMeasureOffset, false);
+            song.AddFiringPoint(beat + 6.0f, twoMeasureOffset, false);
+            song.AddFiringPoint(beat + 6.5f, twoMeasureOffset, false);
+            song.AddFiringPoint(beat + 7.0f, twoMeasureOffset, false);
+            song.AddFiringPoint(beat + 7.5f, twoMeasureOffset, false);
+            song.AddFiringPoint(beat + 8.0f, twoMeasureOffset, false);
+            song.AddFiringPoint(beat + 8.5f, twoMeasureOffset, false);
 
             beat += 16.0f;
 		}
@@ -46,16 +47,22 @@ public class TestRhythmScript : MonoBehaviour
 
         if (firingPointIndex < song.firingPoints.Count && timer >= song.firingPoints[firingPointIndex].startTime)
 		{
-            projectilePrefab.GetComponent<Entity381>().velocity.x = song.firingPoints[firingPointIndex].velocity;
+            GameObject projectileToSpawn;
+            if (song.firingPoints[firingPointIndex].isReflectable)
+                projectileToSpawn = reflectableProjectilePrefab;
+			else
+                projectileToSpawn = projectilePrefab;
+
+            projectileToSpawn.GetComponent<Entity381>().velocity.x = song.firingPoints[firingPointIndex].velocity;
             if (ship)
             {
-                Instantiate(projectilePrefab, transform.localPosition, Quaternion.identity);
+                Instantiate(projectileToSpawn, transform.localPosition, Quaternion.identity);
             }
             else
 			{
                 Vector3 t = transform.localPosition;
                 t.y += 3;
-                Instantiate(projectilePrefab, t, Quaternion.identity);
+                Instantiate(projectileToSpawn, t, Quaternion.identity);
 
             }
 
@@ -82,7 +89,7 @@ public class Song
         firingPoints = new List<FiringPoint>();
     }
 
-    public void AddFiringPoint(float fireBeat, float playerBeatOffset)
+    public void AddFiringPoint(float fireBeat, float playerBeatOffset, bool isReflectable)
     {
         float playerBeat = fireBeat + playerBeatOffset;
         fireBeat -= 1.0f; // convert to 0 index
@@ -90,7 +97,7 @@ public class Song
         float diff = playerBeat - fireBeat;
         float firingTime = fireBeat * beatLength;
         float projectileSpeed = playerEnemyDistance / (diff * beatLength);
-        firingPoints.Add(new FiringPoint(firingTime, -projectileSpeed));
+        firingPoints.Add(new FiringPoint(firingTime, -projectileSpeed, isReflectable));
     }
 }
 
@@ -98,10 +105,12 @@ public struct FiringPoint
 {
     public float startTime;
     public float velocity;
+    public bool isReflectable;
 
-    public FiringPoint(float startTime, float velocity)
+    public FiringPoint(float startTime, float velocity, bool isReflectable)
 	{
         this.startTime = startTime;
         this.velocity = velocity;
+        this.isReflectable = isReflectable;
 	}
 }
