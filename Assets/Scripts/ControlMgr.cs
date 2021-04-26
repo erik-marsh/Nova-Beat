@@ -29,21 +29,24 @@ public class ControlMgr : MonoBehaviour
 		}
 	}
 
+    private bool isUp = false;
 	void RunPlayerControls()
 	{
 		GameObject player = EntityMgr.inst.playerEntityObject;
 
-		if (Input.GetKeyDown(KeyCode.UpArrow))
+		if (Input.GetKeyDown(KeyCode.UpArrow) && isUp != true)
 		{
 			Vector3 newPos = player.transform.localPosition;
 			newPos.y += 4;
 			player.transform.localPosition = newPos;
+            isUp = true;
 		}
-		else if (Input.GetKeyDown(KeyCode.DownArrow))
+		else if (Input.GetKeyDown(KeyCode.DownArrow) && isUp != false)
 		{
 			Vector3 newPos = player.transform.localPosition;
 			newPos.y -= 4;
 			player.transform.localPosition = newPos;
+            isUp = false;
 		}
 	}
 }
