@@ -17,8 +17,8 @@ public class AudioMgr : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //if (playMusicOnce == false && Time.time > 1f)
-        if (playMusicOnce == false)
+        if (playMusicOnce == false && Time.realtimeSinceStartup > 5f)
+        //if (playMusicOnce == false)
         {
             gamePlayMusic.Play();
             playMusicOnce = true;
