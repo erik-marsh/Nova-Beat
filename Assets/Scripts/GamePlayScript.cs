@@ -80,24 +80,106 @@ public class GamePlayScript : MonoBehaviour
         }
     }
 
+    public bool createMode = false;
+
     private int currentBeat = 0;
     private float currentTime = 0f;
 
     private void Update()
     {
-        
-        if (Time.realtimeSinceStartup > times[currentBeat] + 5.0f - 1.7f)
+        if (createMode)
         {
-            Debug.Log(topIndicator[currentBeat]);
-            spawnProjectile(!topIndicator[currentBeat], reflectIndicator[currentBeat]);
-
-            currentBeat++;
+            createScene();
         }
+
+
+        //if (Time.realtimeSinceStartup > times[currentBeat] + 5.0f - 1.7f)
+        //{
+        //    Debug.Log(topIndicator[currentBeat]);
+        //    spawnProjectile(!topIndicator[currentBeat], reflectIndicator[currentBeat]);
+
+        //    currentBeat++;
+        //}
     }
 
-    private void spawnProjectile(bool enemyShip1, bool reflectable)
+    private bool projectileCreating = false;
+    private GameObject currentGameObject;
+    private Vector3 currentGOScale = Vector3.one;
+    private bool projectileCreating2 = false;
+    private GameObject currentGameObject2;
+    private Vector3 currentGOScale2 = Vector3.one;
+    private Vector3 currentGOTransform = Vector3.one;
+    private Vector3 currentGOTransform2 = Vector3.one;
+    private bool zPressed = false;
+    private void createScene()
     {
-        if (enemyShip1)
+        if (Input.GetKeyDown(KeyCode.Z))
+        {
+            zPressed = true;
+        }
+        else if (Input.GetKeyUp(KeyCode.Z))
+        {
+            zPressed = false;
+        }
+        if (Input.GetKeyDown(KeyCode.UpArrow))
+        {
+            if (projectileCreating == false)
+            {
+                projectileCreating = true;
+                if (zPressed)
+                    currentGameObject = Instantiate(refectableProjectile, enemy1);
+                else
+                    currentGameObject = Instantiate(enemyProjectile, enemy1);
+                currentGOTransform = currentGameObject.transform.position;
+            }
+            //Spawn a projectile if it is not already creating one
+        }
+
+        if (Input.GetKey(KeyCode.UpArrow))
+        {
+            currentGOScale.x += 1f;
+            currentGameObject.transform.localScale = currentGOScale;
+        }
+
+        if (Input.GetKeyUp(KeyCode.UpArrow))
+        {
+            currentGameObject.GetComponent<Entity381>().position += new Vector3(currentGOScale.x, 0, 0);
+            currentGOScale = Vector3.one;
+            projectileCreating = false;
+        }
+
+        if (Input.GetKeyDown(KeyCode.DownArrow))
+        {
+            if (projectileCreating2 == false)
+            {
+                projectileCreating2 = true;
+                if (zPressed)
+                    currentGameObject2 = Instantiate(refectableProjectile, enemy2);
+                else
+                    currentGameObject2 = Instantiate(enemyProjectile, enemy2);
+                currentGOTransform2 = currentGameObject2.transform.position;
+            }
+            //Spawn a projectile if it is not already creating one
+        }
+
+
+        if (Input.GetKey(KeyCode.DownArrow))
+        {
+            currentGOScale2.x += 1f;
+            currentGameObject2.transform.localScale = currentGOScale2;
+        }
+        if (Input.GetKeyUp(KeyCode.DownArrow))
+        {
+            currentGameObject2.GetComponent<Entity381>().position += new Vector3(currentGOScale2.x, 0, 0);
+            currentGOScale2 = Vector3.one;
+            projectileCreating2 = false;
+        }
+
+    }
+
+    private void spawnProjectile(bool topLane, bool reflectable)
+    {
+        if (topLane)
         {
             if (reflectable)
                 Instantiate(refectableProjectile, enemy1);
