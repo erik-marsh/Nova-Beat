@@ -50,27 +50,10 @@ public class ControlMgr : MonoBehaviour
 
 	void RunPlayerControls()
 	{
-		//GameObject player = EntityMgr.inst.playerEntityObject;
-
-		//if (Input.GetKeyDown(KeyCode.UpArrow) && isUp != true)
-		//{
-		//	Vector3 newPos = player.transform.localPosition;
-		//	newPos.y += 4;
-		//	player.transform.localPosition = newPos;
-		//          isUp = true;
-		//}
-		//else if (Input.GetKeyDown(KeyCode.DownArrow) && isUp != false)
-		//{
-		//	Vector3 newPos = player.transform.localPosition;
-		//	newPos.y -= 4;
-		//	player.transform.localPosition = newPos;
-		//          isUp = false;
-		//}
 		Vector3 posVector = player.transform.localPosition;
 
 		// different player states have different input priorities
 		// ex. if you are up, you should check to see if down was pressed before you check if up is held
-
 		if (playerState == PlayerPosition.UP)
 		{
 			if (Input.GetKeyDown(KeyCode.DownArrow)) // check if down was pressed
@@ -81,6 +64,12 @@ public class ControlMgr : MonoBehaviour
 			else if (Input.GetKey(KeyCode.UpArrow)) // otherwise, check if the player is still holding up
 			{
 				// nothing needs to change
+				// the emptiness of this if statement is actually important, don't remove it
+			}
+			else if (Input.GetKey(KeyCode.DownArrow)) // THEN we check if down is still held and update accordingly
+			{
+				posVector.y -= 8;
+				playerState = PlayerPosition.DOWN;
 			}
 			else // otherwise, return to center
 			{
@@ -98,6 +87,12 @@ public class ControlMgr : MonoBehaviour
 			else if (Input.GetKey(KeyCode.DownArrow)) // otherwise, check if the player is still holding down
 			{
 				// nothing needs to change
+				// the emptiness of this if statement is actually important, don't remove it
+			}
+			else if (Input.GetKey(KeyCode.UpArrow)) // THEN we check if up is still held and update accordingly
+			{
+				posVector.y += 8;
+				playerState = PlayerPosition.UP;
 			}
 			else // otherwise, return to center
 			{
@@ -122,68 +117,5 @@ public class ControlMgr : MonoBehaviour
 
 		// update position, finally
 		player.transform.localPosition = posVector;
-
-		//if (Input.GetKey(KeyCode.UpArrow))
-		//{
-		//	if (playerState == PlayerPosition.CENTER)
-		//	{
-		//		posVector.y += 4;
-		//	}
-		//	else if (playerState == PlayerPosition.DOWN)
-		//	{
-		//		posVector.y += 8;
-		//	}
-
-		//	player.transform.localPosition = posVector;
-		//	playerState = PlayerPosition.UP;
-		//}
-		//else if (Input.GetKey(KeyCode.DownArrow))
-		//{
-		//	if (playerState == PlayerPosition.CENTER)
-		//	{
-		//		posVector.y -= 4;
-		//	}
-		//	else if (playerState == PlayerPosition.UP)
-		//	{
-		//		posVector.y -= 8;
-		//	}
-
-		//	player.transform.localPosition = posVector;
-		//	playerState = PlayerPosition.DOWN;
-		//}
-
-
-		//if (!Input.GetKey(KeyCode.UpArrow) && !Input.GetKey(KeyCode.DownArrow)) // neither key is being pressed; return to center
-		//{
-		//	if (playerState == PlayerPosition.UP)
-		//	{
-		//		posVector.y -= 4;
-		//	}
-		//	else if (playerState == PlayerPosition.DOWN)
-		//	{
-		//		posVector.y += 4;
-		//	}
-
-		//	player.transform.localPosition = posVector;
-		//	playerState = PlayerPosition.CENTER;
-		//}
-
-
-
-
-
-
-		//else if (Input.GetKeyUp(KeyCode.UpArrow) && playerPos == PlayerPosition.UP)
-		//{
-		//	posVector.y -= 4;
-		//	player.transform.localPosition = posVector;
-		//	playerPos = PlayerPosition.CENTER;
-		//}
-		//else if (Input.GetKeyUp(KeyCode.DownArrow) && playerPos == PlayerPosition.DOWN)
-		//{
-		//	posVector.y += 4;
-		//	player.transform.localPosition = posVector;
-		//	playerPos = PlayerPosition.CENTER;
-		//}
 	}
 }
