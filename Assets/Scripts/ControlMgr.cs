@@ -13,6 +13,8 @@ public class ControlMgr : MonoBehaviour
 		DOWN
 	}
 
+	public List<BoxCollider> reflectionScoreZones = new List<BoxCollider>();
+
 	//private bool isUp = false;
 	private GameObject player;
 	private PlayerPosition playerState = PlayerPosition.CENTER;

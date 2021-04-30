@@ -13,7 +13,7 @@ public class ReflectableLaserScript : MonoBehaviour
 	private Vector3 initialVelocity;
 	private Vector3 initialScale;
 	private bool isFiringBack = false;
-	private bool reflectMissed = false; // TODO: needs to check if you actually hit the damn thing in the first place
+	private bool reflectMissed = true; // TODO: needs to check if you actually hit the damn thing in the first place
 
 	private void Start()
 	{
@@ -33,6 +33,7 @@ public class ReflectableLaserScript : MonoBehaviour
 				&& front.y <= player.transform.position.y + reflectionToleranceY
 				&& front.y >= player.transform.position.y - reflectionToleranceY)
 			{
+
 				if (Input.GetKey(KeyCode.Z))
 				{
 					if (transform.localScale.x > 1.0f)
