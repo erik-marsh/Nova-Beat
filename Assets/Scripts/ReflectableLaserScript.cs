@@ -22,7 +22,7 @@ public class ReflectableLaserScript : MonoBehaviour
 		ent = GetComponent<Entity381>();
 		initialScale = transform.localScale;
 	}
-
+	 
 	private void Update()
 	{
 		if (!isFiringBack)
