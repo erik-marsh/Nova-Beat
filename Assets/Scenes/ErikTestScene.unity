@@ -119,6 +119,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6770498521950491923, guid: 5aceced54a79e18479aee25682394d86,
+        type: 3}
+      propertyPath: velocity.x
+      value: -50
+      objectReference: {fileID: 0}
     - target: {fileID: 6770498521950492011, guid: 5aceced54a79e18479aee25682394d86,
         type: 3}
       propertyPath: m_Name
@@ -132,7 +137,7 @@ PrefabInstance:
     - target: {fileID: 6770498521950492015, guid: 5aceced54a79e18479aee25682394d86,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -54.4
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6770498521950492015, guid: 5aceced54a79e18479aee25682394d86,
         type: 3}
@@ -271,7 +276,7 @@ PrefabInstance:
     - target: {fileID: 6770498521950492015, guid: 37b5935f471ffd54eaabbb02c6198cd0,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.0099983
+      value: 41.5
       objectReference: {fileID: 0}
     - target: {fileID: 6770498521950492015, guid: 37b5935f471ffd54eaabbb02c6198cd0,
         type: 3}
@@ -626,7 +631,7 @@ PrefabInstance:
     - target: {fileID: 6770498521950492015, guid: 37b5935f471ffd54eaabbb02c6198cd0,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.9900014
+      value: 34.5
       objectReference: {fileID: 0}
     - target: {fileID: 6770498521950492015, guid: 37b5935f471ffd54eaabbb02c6198cd0,
         type: 3}
@@ -834,7 +839,7 @@ PrefabInstance:
     - target: {fileID: 6770498521950492015, guid: 37b5935f471ffd54eaabbb02c6198cd0,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.00999856
+      value: 37.5
       objectReference: {fileID: 0}
     - target: {fileID: 6770498521950492015, guid: 37b5935f471ffd54eaabbb02c6198cd0,
         type: 3}
@@ -1158,7 +1163,7 @@ PrefabInstance:
     - target: {fileID: 6770498521950492015, guid: 37b5935f471ffd54eaabbb02c6198cd0,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.0099986
+      value: 38.5
       objectReference: {fileID: 0}
     - target: {fileID: 6770498521950492015, guid: 37b5935f471ffd54eaabbb02c6198cd0,
         type: 3}
@@ -1272,7 +1277,7 @@ PrefabInstance:
     - target: {fileID: 6770498521950492015, guid: 37b5935f471ffd54eaabbb02c6198cd0,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.9900014
+      value: 35.5
       objectReference: {fileID: 0}
     - target: {fileID: 6770498521950492015, guid: 37b5935f471ffd54eaabbb02c6198cd0,
         type: 3}
@@ -1482,7 +1487,7 @@ PrefabInstance:
     - target: {fileID: 6770498521950492015, guid: 37b5935f471ffd54eaabbb02c6198cd0,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.99000144
+      value: 36.5
       objectReference: {fileID: 0}
     - target: {fileID: 6770498521950492015, guid: 37b5935f471ffd54eaabbb02c6198cd0,
         type: 3}
@@ -1960,7 +1965,7 @@ PrefabInstance:
     - target: {fileID: 6770498521950492015, guid: 37b5935f471ffd54eaabbb02c6198cd0,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.01
+      value: 40.5
       objectReference: {fileID: 0}
     - target: {fileID: 6770498521950492015, guid: 37b5935f471ffd54eaabbb02c6198cd0,
         type: 3}
@@ -2044,7 +2049,7 @@ PrefabInstance:
     - target: {fileID: 6770498521950492015, guid: 37b5935f471ffd54eaabbb02c6198cd0,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.0099986
+      value: 39.5
       objectReference: {fileID: 0}
     - target: {fileID: 6770498521950492015, guid: 37b5935f471ffd54eaabbb02c6198cd0,
         type: 3}
@@ -2128,7 +2133,7 @@ PrefabInstance:
     - target: {fileID: 6770498521950492015, guid: 37b5935f471ffd54eaabbb02c6198cd0,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.9900014
+      value: 33.5
       objectReference: {fileID: 0}
     - target: {fileID: 6770498521950492015, guid: 37b5935f471ffd54eaabbb02c6198cd0,
         type: 3}
@@ -2288,6 +2293,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   reflectionToleranceY: 1
   reflectionToleranceX: 10
+  scoreZones: []
 --- !u!1 &2146187794
 GameObject:
   m_ObjectHideFlags: 0

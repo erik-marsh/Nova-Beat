@@ -7,20 +7,19 @@ public class ReflectableLaserScript : MonoBehaviour
 	public float reflectionToleranceY = 1.0f;
 	public float reflectionToleranceX = 10.0f;
 
-	private GameObject player;
+	public List<BoxCollider> scoreZones = new List<BoxCollider>();
+
 	private Renderer rend;
 	private Entity381 ent;
-	private Vector3 initialVelocity;
 	private Vector3 initialScale;
 	private bool isFiringBack = false;
-	private bool reflectMissed = true; // TODO: needs to check if you actually hit the damn thing in the first place
+	private bool initialHitRegistered = false;
 
 	private void Start()
 	{
-		player = EntityMgr.inst.playerEntityObject;
+		scoreZones = ControlMgr.inst.reflectionScoreZones;
 		rend = GetComponent<Renderer>();
 		ent = GetComponent<Entity381>();
-		initialVelocity = ent.velocity;
 		initialScale = transform.localScale;
 	}
 
@@ -28,29 +27,38 @@ public class ReflectableLaserScript : MonoBehaviour
 	{
 		if (!isFiringBack)
 		{
-			Vector3 front = new Vector3(transform.position.x - rend.bounds.extents.magnitude, transform.position.y, transform.position.z);
-			if (front.x <= player.transform.position.x + reflectionToleranceX
-				&& front.y <= player.transform.position.y + reflectionToleranceY
-				&& front.y >= player.transform.position.y - reflectionToleranceY)
-			{
+			Vector3 projectileTip = ent.position;
+			projectileTip.x -= rend.bounds.extents.magnitude;
 
-				if (Input.GetKey(KeyCode.Z))
+			if (!initialHitRegistered)
+			{
+				for (int i = 0; i < scoreZones.Count; i++)
 				{
-					if (transform.localScale.x > 1.0f)
+					if (Input.GetKeyDown(KeyCode.Z) && scoreZones[i].bounds.Contains(projectileTip))
 					{
-						Vector3 newScale = transform.localScale;
-						newScale += new Vector3(ent.velocity.x * Time.deltaTime * 2.0f, 0, 0);
-						transform.localScale = newScale;
-						if (transform.localScale.x < 1.0f)
-						{
-							transform.localScale = new Vector3(1.0f, transform.localScale.y, transform.localScale.z);
-						}
+						Debug.Log("hit box " + i);
+						initialHitRegistered = true;
 					}
-					else
+				}
+			}
+			else
+			{
+				for (int i = 0; i < scoreZones.Count; i++)
+				{
+					if (Input.GetKey(KeyCode.Z) && scoreZones[i].bounds.Contains(projectileTip))
 					{
-						// fire back
-						ent.velocity = -ent.velocity;
-						isFiringBack = true;
+						if (transform.localScale.x > 1.0f)
+						{
+							ShrinkProjectile();
+						}
+						else
+						{
+							// fire back
+							// TODO: this is where you would update score
+							Debug.Log("Score update");
+							ent.velocity = -ent.velocity;
+							isFiringBack = true;
+						}
 					}
 				}
 			}
@@ -59,18 +67,30 @@ public class ReflectableLaserScript : MonoBehaviour
 		{
 			if (transform.localScale.x < initialScale.x)
 			{
-				if (Input.GetKey(KeyCode.Z))
-				{
-					Vector3 newScale = transform.localScale;
-					newScale += new Vector3(ent.velocity.x * Time.deltaTime * 2.0f, 0, 0);
-					transform.localScale = newScale;
-
-					if (transform.localScale.x > initialScale.x)
-					{
-						transform.localScale = initialScale;
-					}
-				}
+				GrowProjectile();
 			}
 		}
 	}
+
+	void ShrinkProjectile()
+	{
+		Vector3 newScale = transform.localScale;
+		newScale += new Vector3(ent.velocity.x * Time.deltaTime * 2.0f, 0, 0);
+		transform.localScale = newScale;
+		if (transform.localScale.x < 1.0f)
+		{
+			transform.localScale = new Vector3(1.0f, transform.localScale.y, transform.localScale.z);
+		}
+	}
+
+	void GrowProjectile()
+	{
+		Vector3 newScale = transform.localScale;
+		newScale += new Vector3(ent.velocity.x * Time.deltaTime * 2.0f, 0, 0);
+		transform.localScale = newScale;
+		if (transform.localScale.x > initialScale.x)
+		{
+			transform.localScale = initialScale;
+		}
+	}	
 }
