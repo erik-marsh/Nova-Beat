@@ -15,9 +15,7 @@ public class ControlMgr : MonoBehaviour
 
 	//private bool isUp = false;
 	private GameObject player;
-	public PlayerPosition playerState = PlayerPosition.CENTER;
-	public PlayerPosition lastPlayerState = PlayerPosition.CENTER;
-
+	private PlayerPosition playerState = PlayerPosition.CENTER;
 
 	private void Awake()
 	{
