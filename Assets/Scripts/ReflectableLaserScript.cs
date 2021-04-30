@@ -4,9 +4,6 @@ using UnityEngine;
 
 public class ReflectableLaserScript : MonoBehaviour
 {
-	public float reflectionToleranceY = 1.0f;
-	public float reflectionToleranceX = 10.0f;
-
 	public List<BoxCollider> scoreZones = new List<BoxCollider>();
 
 	private Renderer rend;
