@@ -5,19 +5,26 @@ using UnityEngine.UI;
 
 public class PlayerScript : MonoBehaviour
 {
-	public Text hitText;
-	private int numHits = 0;
+	public int playerHealth = 3;
+
+	private void Start()
+	{
+		// update to display initial health on UI
+		UIMgr.inst.SetPlayerHealth(playerHealth);
+	}
 
 	private void Update()
 	{
-		hitText.text = numHits.ToString();
+		if (playerHealth <= 0)
+		{
+			// kill player, enter game over screen
+		}
 	}
 
 	private void OnTriggerEnter(Collider collision)
 	{
 		Debug.Log("Player Collided");
-		numHits++;
-		//MeshRenderer meshRenderer = GetComponent<MeshRenderer>();
-		//meshRenderer.material.color = new Color(255, 0, 0);
+		playerHealth--;
+		UIMgr.inst.SetPlayerHealth(playerHealth);
 	}
 }

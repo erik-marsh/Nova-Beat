@@ -4,23 +4,36 @@ using UnityEngine;
 
 public class ReflectableProjectileScript : MonoBehaviour
 {
-	public float reflectionRadius = 5.0f;
+	//public float[] scoreThresholds = new float[5];
+	// 0 -> perfect
+	// 1 -> great
+	// ... etc
+	public List<BoxCollider> scoreZones = new List<BoxCollider>();
 
-	private GameObject player;
+	private Entity381 ent;
+	private float distanceToTip;
 
-	private void Awake()
+	private void Start()
 	{
-		player = EntityMgr.inst.playerEntityObject;
+		ent = GetComponent<Entity381>();
+		scoreZones = ControlMgr.inst.reflectionScoreZones;
+		distanceToTip = GetComponent<Renderer>().bounds.extents.magnitude;
 	}
 
 	private void Update()
 	{
-		if (Vector3.Distance(player.transform.position, transform.position) <= reflectionRadius)
+		Vector3 projectileTip = ent.position;
+		projectileTip.x -= distanceToTip;
+
+		if (Input.GetKeyDown(KeyCode.Z))
 		{
-			if (Input.GetKeyDown(KeyCode.Z))
+			for (int i = 0; i < scoreZones.Count; i++)
 			{
-				var ent = GetComponent<Entity381>();
-				ent.velocity.x = -ent.velocity.x;
+				if (scoreZones[i].bounds.Contains(projectileTip))
+				{
+					Debug.Log("hit box " + i);
+					ent.velocity.x = -ent.velocity.x;
+				}
 			}
 		}
 	}

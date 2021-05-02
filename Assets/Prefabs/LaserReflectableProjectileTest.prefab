@@ -14,9 +14,9 @@ GameObject:
   - component: {fileID: 6770498521950492008}
   - component: {fileID: 6770498521950491923}
   - component: {fileID: 6770498521950491922}
-  - component: {fileID: 6770498521950492013}
+  - component: {fileID: 114360016763493316}
   m_Layer: 0
-  m_Name: ReflectableProjectile
+  m_Name: LaserReflectableProjectileTest
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -121,7 +121,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   entity: {fileID: 6770498521950491923}
---- !u!114 &6770498521950492013
+--- !u!114 &114360016763493316
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -130,7 +130,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 6770498521950492011}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8c53cc7a14aa0ae4c87b8edea3fb3aa9, type: 3}
+  m_Script: {fileID: 11500000, guid: 1d1f44377f0a56f4db6d1c5480519bd6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  reflectionRadius: 5
+  reflectionToleranceY: 1
+  reflectionToleranceX: 10
+  scoreZones: []
