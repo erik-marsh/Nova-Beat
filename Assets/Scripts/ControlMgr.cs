@@ -14,6 +14,8 @@ public class ControlMgr : MonoBehaviour
 	}
 
 	public List<BoxCollider> reflectionScoreZones = new List<BoxCollider>();
+	public List<BoxCollider> topScoreZones = new List<BoxCollider>();
+	public List<BoxCollider> bottomScoreZones = new List<BoxCollider>();
 
 	//private bool isUp = false;
 	private GameObject player;
