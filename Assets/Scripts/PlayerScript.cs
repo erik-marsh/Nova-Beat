@@ -10,7 +10,7 @@ public class PlayerScript : MonoBehaviour
 	private void Start()
 	{
 		// update to display initial health on UI
-		// UIMgr.inst.SetPlayerHealth(playerHealth)
+		UIMgr.inst.SetPlayerHealth(playerHealth);
 	}
 
 	private void Update()
@@ -25,6 +25,6 @@ public class PlayerScript : MonoBehaviour
 	{
 		Debug.Log("Player Collided");
 		playerHealth--;
-		// UIMgr.inst.SetPlayerHealth(playerHealth)
+		UIMgr.inst.SetPlayerHealth(playerHealth);
 	}
 }
