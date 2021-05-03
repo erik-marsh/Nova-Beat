@@ -126,6 +126,7 @@ GameObject:
   - component: {fileID: 4132049}
   - component: {fileID: 4132048}
   - component: {fileID: 4132047}
+  - component: {fileID: 4132052}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone) (29)
   m_TagString: Untagged
@@ -232,6 +233,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4132045}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &4132052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4132045}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &7423838
 GameObject:
   m_ObjectHideFlags: 0
@@ -246,6 +260,7 @@ GameObject:
   - component: {fileID: 7423842}
   - component: {fileID: 7423841}
   - component: {fileID: 7423840}
+  - component: {fileID: 7423845}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone) (22)
   m_TagString: Untagged
@@ -352,6 +367,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7423838}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &7423845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7423838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &21999824
 GameObject:
   m_ObjectHideFlags: 0
@@ -366,6 +394,7 @@ GameObject:
   - component: {fileID: 21999828}
   - component: {fileID: 21999827}
   - component: {fileID: 21999826}
+  - component: {fileID: 21999831}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone) (60)
   m_TagString: Untagged
@@ -472,6 +501,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 21999824}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &21999831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 21999824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &25293463
 GameObject:
   m_ObjectHideFlags: 0
@@ -486,6 +528,7 @@ GameObject:
   - component: {fileID: 25293467}
   - component: {fileID: 25293466}
   - component: {fileID: 25293465}
+  - component: {fileID: 25293470}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone)
   m_TagString: Untagged
@@ -592,6 +635,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 25293463}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &25293470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 25293463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &31933606
 GameObject:
   m_ObjectHideFlags: 0
@@ -606,6 +662,7 @@ GameObject:
   - component: {fileID: 31933610}
   - component: {fileID: 31933609}
   - component: {fileID: 31933608}
+  - component: {fileID: 31933613}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone)
   m_TagString: Untagged
@@ -712,6 +769,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 31933606}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &31933613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 31933606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &38060353
 GameObject:
   m_ObjectHideFlags: 0
@@ -726,6 +796,7 @@ GameObject:
   - component: {fileID: 38060357}
   - component: {fileID: 38060356}
   - component: {fileID: 38060355}
+  - component: {fileID: 38060360}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone) (63)
   m_TagString: Untagged
@@ -832,6 +903,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 38060353}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &38060360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 38060353}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &53966474
 GameObject:
   m_ObjectHideFlags: 0
@@ -846,6 +930,7 @@ GameObject:
   - component: {fileID: 53966478}
   - component: {fileID: 53966477}
   - component: {fileID: 53966476}
+  - component: {fileID: 53966481}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone)
   m_TagString: Untagged
@@ -952,6 +1037,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 53966474}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &53966481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 53966474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &54984358
 GameObject:
   m_ObjectHideFlags: 0
@@ -966,6 +1064,7 @@ GameObject:
   - component: {fileID: 54984362}
   - component: {fileID: 54984361}
   - component: {fileID: 54984360}
+  - component: {fileID: 54984365}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone) (61)
   m_TagString: Untagged
@@ -1072,6 +1171,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 54984358}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &54984365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 54984358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &87397164
 GameObject:
   m_ObjectHideFlags: 0
@@ -1135,6 +1247,7 @@ GameObject:
   - component: {fileID: 87523037}
   - component: {fileID: 87523036}
   - component: {fileID: 87523035}
+  - component: {fileID: 87523040}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone)
   m_TagString: Untagged
@@ -1241,6 +1354,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 87523033}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &87523040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 87523033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &117881199
 GameObject:
   m_ObjectHideFlags: 0
@@ -1478,6 +1604,7 @@ GameObject:
   - component: {fileID: 151018736}
   - component: {fileID: 151018735}
   - component: {fileID: 151018734}
+  - component: {fileID: 151018739}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone) (46)
   m_TagString: Untagged
@@ -1584,6 +1711,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 151018732}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &151018739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 151018732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &176947054
 GameObject:
   m_ObjectHideFlags: 0
@@ -1648,6 +1788,7 @@ GameObject:
   - component: {fileID: 182087626}
   - component: {fileID: 182087625}
   - component: {fileID: 182087624}
+  - component: {fileID: 182087629}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone) (32)
   m_TagString: Untagged
@@ -1754,6 +1895,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 182087622}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &182087629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 182087622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &205051096
 GameObject:
   m_ObjectHideFlags: 0
@@ -1768,6 +1922,7 @@ GameObject:
   - component: {fileID: 205051100}
   - component: {fileID: 205051099}
   - component: {fileID: 205051098}
+  - component: {fileID: 205051103}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone) (14)
   m_TagString: Untagged
@@ -1874,6 +2029,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 205051096}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &205051103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 205051096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &213756815
 GameObject:
   m_ObjectHideFlags: 0
@@ -1888,6 +2056,7 @@ GameObject:
   - component: {fileID: 213756819}
   - component: {fileID: 213756818}
   - component: {fileID: 213756817}
+  - component: {fileID: 213756822}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone)
   m_TagString: Untagged
@@ -1994,6 +2163,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 213756815}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &213756822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 213756815}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &255435829
 GameObject:
   m_ObjectHideFlags: 0
@@ -2041,6 +2223,7 @@ GameObject:
   - component: {fileID: 268983774}
   - component: {fileID: 268983773}
   - component: {fileID: 268983772}
+  - component: {fileID: 268983777}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone) (13)
   m_TagString: Untagged
@@ -2147,6 +2330,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 268983770}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &268983777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 268983770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &308379033
 GameObject:
   m_ObjectHideFlags: 0
@@ -2161,6 +2357,7 @@ GameObject:
   - component: {fileID: 308379037}
   - component: {fileID: 308379036}
   - component: {fileID: 308379035}
+  - component: {fileID: 308379040}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone)
   m_TagString: Untagged
@@ -2267,6 +2464,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 308379033}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &308379040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 308379033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &319900788
 GameObject:
   m_ObjectHideFlags: 0
@@ -2441,6 +2651,7 @@ GameObject:
   - component: {fileID: 320778843}
   - component: {fileID: 320778842}
   - component: {fileID: 320778841}
+  - component: {fileID: 320778846}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone)
   m_TagString: Untagged
@@ -2547,6 +2758,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 320778839}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &320778846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 320778839}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &323224860
 GameObject:
   m_ObjectHideFlags: 0
@@ -2561,6 +2785,7 @@ GameObject:
   - component: {fileID: 323224864}
   - component: {fileID: 323224863}
   - component: {fileID: 323224862}
+  - component: {fileID: 323224867}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone)
   m_TagString: Untagged
@@ -2667,6 +2892,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 323224860}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &323224867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 323224860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &327705268
 GameObject:
   m_ObjectHideFlags: 0
@@ -2681,6 +2919,7 @@ GameObject:
   - component: {fileID: 327705272}
   - component: {fileID: 327705271}
   - component: {fileID: 327705270}
+  - component: {fileID: 327705275}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone)
   m_TagString: Untagged
@@ -2787,6 +3026,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 327705268}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &327705275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 327705268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &348922422
 GameObject:
   m_ObjectHideFlags: 0
@@ -2878,6 +3130,7 @@ GameObject:
   - component: {fileID: 350894845}
   - component: {fileID: 350894844}
   - component: {fileID: 350894843}
+  - component: {fileID: 350894848}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone) (31)
   m_TagString: Untagged
@@ -2984,6 +3237,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 350894841}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &350894848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 350894841}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &369189031
 GameObject:
   m_ObjectHideFlags: 0
@@ -2998,6 +3264,7 @@ GameObject:
   - component: {fileID: 369189035}
   - component: {fileID: 369189034}
   - component: {fileID: 369189033}
+  - component: {fileID: 369189038}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone)
   m_TagString: Untagged
@@ -3104,6 +3371,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 369189031}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &369189038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 369189031}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &383103756
 GameObject:
   m_ObjectHideFlags: 0
@@ -3118,6 +3398,7 @@ GameObject:
   - component: {fileID: 383103760}
   - component: {fileID: 383103759}
   - component: {fileID: 383103758}
+  - component: {fileID: 383103763}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone)
   m_TagString: Untagged
@@ -3224,6 +3505,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 383103756}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &383103763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 383103756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &384459948
 GameObject:
   m_ObjectHideFlags: 0
@@ -3238,6 +3532,7 @@ GameObject:
   - component: {fileID: 384459952}
   - component: {fileID: 384459951}
   - component: {fileID: 384459950}
+  - component: {fileID: 384459955}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone) (38)
   m_TagString: Untagged
@@ -3344,6 +3639,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 384459948}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &384459955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 384459948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1001 &395967375
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3448,6 +3756,7 @@ GameObject:
   - component: {fileID: 399301592}
   - component: {fileID: 399301591}
   - component: {fileID: 399301590}
+  - component: {fileID: 399301595}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone) (41)
   m_TagString: Untagged
@@ -3554,6 +3863,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 399301588}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &399301595
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 399301588}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &404809210
 GameObject:
   m_ObjectHideFlags: 0
@@ -3568,6 +3890,7 @@ GameObject:
   - component: {fileID: 404809214}
   - component: {fileID: 404809213}
   - component: {fileID: 404809212}
+  - component: {fileID: 404809217}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone)
   m_TagString: Untagged
@@ -3674,6 +3997,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 404809210}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &404809217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 404809210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &406623323
 GameObject:
   m_ObjectHideFlags: 0
@@ -3688,6 +4024,7 @@ GameObject:
   - component: {fileID: 406623327}
   - component: {fileID: 406623326}
   - component: {fileID: 406623325}
+  - component: {fileID: 406623330}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone) (48)
   m_TagString: Untagged
@@ -3794,6 +4131,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 406623323}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &406623330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 406623323}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &414615077
 GameObject:
   m_ObjectHideFlags: 0
@@ -3808,6 +4158,7 @@ GameObject:
   - component: {fileID: 414615081}
   - component: {fileID: 414615080}
   - component: {fileID: 414615079}
+  - component: {fileID: 414615084}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone)
   m_TagString: Untagged
@@ -3914,6 +4265,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 414615077}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &414615084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 414615077}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &444955327
 GameObject:
   m_ObjectHideFlags: 0
@@ -3928,6 +4292,7 @@ GameObject:
   - component: {fileID: 444955331}
   - component: {fileID: 444955330}
   - component: {fileID: 444955329}
+  - component: {fileID: 444955334}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone) (1)
   m_TagString: Untagged
@@ -4034,6 +4399,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 444955327}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &444955334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 444955327}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &453697138
 GameObject:
   m_ObjectHideFlags: 0
@@ -4048,6 +4426,7 @@ GameObject:
   - component: {fileID: 453697142}
   - component: {fileID: 453697141}
   - component: {fileID: 453697140}
+  - component: {fileID: 453697145}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone) (33)
   m_TagString: Untagged
@@ -4154,6 +4533,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 453697138}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &453697145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 453697138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &490174697
 GameObject:
   m_ObjectHideFlags: 0
@@ -4386,6 +4778,7 @@ GameObject:
   - component: {fileID: 501797649}
   - component: {fileID: 501797648}
   - component: {fileID: 501797647}
+  - component: {fileID: 501797652}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone)
   m_TagString: Untagged
@@ -4492,6 +4885,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 501797645}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &501797652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 501797645}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &513271188
 GameObject:
   m_ObjectHideFlags: 0
@@ -4583,6 +4989,7 @@ GameObject:
   - component: {fileID: 520162569}
   - component: {fileID: 520162568}
   - component: {fileID: 520162567}
+  - component: {fileID: 520162572}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone)
   m_TagString: Untagged
@@ -4689,6 +5096,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 520162565}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &520162572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 520162565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &531059356
 GameObject:
   m_ObjectHideFlags: 0
@@ -4703,6 +5123,7 @@ GameObject:
   - component: {fileID: 531059360}
   - component: {fileID: 531059359}
   - component: {fileID: 531059358}
+  - component: {fileID: 531059363}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone) (36)
   m_TagString: Untagged
@@ -4809,6 +5230,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 531059356}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &531059363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 531059356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &538827759
 GameObject:
   m_ObjectHideFlags: 0
@@ -4823,6 +5257,7 @@ GameObject:
   - component: {fileID: 538827763}
   - component: {fileID: 538827762}
   - component: {fileID: 538827761}
+  - component: {fileID: 538827766}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone)
   m_TagString: Untagged
@@ -4929,6 +5364,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 538827759}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &538827766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 538827759}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &541071468
 GameObject:
   m_ObjectHideFlags: 0
@@ -5020,6 +5468,7 @@ GameObject:
   - component: {fileID: 541624596}
   - component: {fileID: 541624595}
   - component: {fileID: 541624594}
+  - component: {fileID: 541624599}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone) (65)
   m_TagString: Untagged
@@ -5126,6 +5575,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 541624592}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &541624599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 541624592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &567492428
 GameObject:
   m_ObjectHideFlags: 0
@@ -5140,6 +5602,7 @@ GameObject:
   - component: {fileID: 567492432}
   - component: {fileID: 567492431}
   - component: {fileID: 567492430}
+  - component: {fileID: 567492435}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone) (15)
   m_TagString: Untagged
@@ -5246,6 +5709,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 567492428}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &567492435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 567492428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &595698032
 GameObject:
   m_ObjectHideFlags: 0
@@ -5260,6 +5736,7 @@ GameObject:
   - component: {fileID: 595698036}
   - component: {fileID: 595698035}
   - component: {fileID: 595698034}
+  - component: {fileID: 595698039}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone) (56)
   m_TagString: Untagged
@@ -5366,6 +5843,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 595698032}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &595698039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 595698032}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &603701905
 GameObject:
   m_ObjectHideFlags: 0
@@ -5380,6 +5870,7 @@ GameObject:
   - component: {fileID: 603701909}
   - component: {fileID: 603701908}
   - component: {fileID: 603701907}
+  - component: {fileID: 603701912}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone) (19)
   m_TagString: Untagged
@@ -5486,6 +5977,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 603701905}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &603701912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 603701905}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &616990463
 GameObject:
   m_ObjectHideFlags: 0
@@ -5500,6 +6004,7 @@ GameObject:
   - component: {fileID: 616990467}
   - component: {fileID: 616990466}
   - component: {fileID: 616990465}
+  - component: {fileID: 616990470}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone) (17)
   m_TagString: Untagged
@@ -5606,6 +6111,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 616990463}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &616990470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 616990463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &621028753
 GameObject:
   m_ObjectHideFlags: 0
@@ -5620,6 +6138,7 @@ GameObject:
   - component: {fileID: 621028757}
   - component: {fileID: 621028756}
   - component: {fileID: 621028755}
+  - component: {fileID: 621028760}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone)
   m_TagString: Untagged
@@ -5726,6 +6245,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 621028753}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &621028760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 621028753}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &638783494
 GameObject:
   m_ObjectHideFlags: 0
@@ -5740,6 +6272,7 @@ GameObject:
   - component: {fileID: 638783498}
   - component: {fileID: 638783497}
   - component: {fileID: 638783496}
+  - component: {fileID: 638783501}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone)
   m_TagString: Untagged
@@ -5846,6 +6379,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 638783494}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &638783501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 638783494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &640319939
 GameObject:
   m_ObjectHideFlags: 0
@@ -5860,6 +6406,7 @@ GameObject:
   - component: {fileID: 640319943}
   - component: {fileID: 640319942}
   - component: {fileID: 640319941}
+  - component: {fileID: 640319946}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone) (45)
   m_TagString: Untagged
@@ -5966,6 +6513,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 640319939}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &640319946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 640319939}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &647388211
 GameObject:
   m_ObjectHideFlags: 0
@@ -6010,6 +6570,7 @@ GameObject:
   - component: {fileID: 647828972}
   - component: {fileID: 647828971}
   - component: {fileID: 647828970}
+  - component: {fileID: 647828975}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone) (18)
   m_TagString: Untagged
@@ -6116,6 +6677,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 647828968}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &647828975
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 647828968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &716875721
 GameObject:
   m_ObjectHideFlags: 0
@@ -6130,6 +6704,7 @@ GameObject:
   - component: {fileID: 716875725}
   - component: {fileID: 716875724}
   - component: {fileID: 716875723}
+  - component: {fileID: 716875728}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone) (5)
   m_TagString: Untagged
@@ -6236,6 +6811,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 716875721}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &716875728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 716875721}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &735647292
 GameObject:
   m_ObjectHideFlags: 0
@@ -6327,6 +6915,7 @@ GameObject:
   - component: {fileID: 735674910}
   - component: {fileID: 735674909}
   - component: {fileID: 735674908}
+  - component: {fileID: 735674913}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone)
   m_TagString: Untagged
@@ -6433,6 +7022,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 735674906}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &735674913
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 735674906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &745249286
 GameObject:
   m_ObjectHideFlags: 0
@@ -6447,6 +7049,7 @@ GameObject:
   - component: {fileID: 745249290}
   - component: {fileID: 745249289}
   - component: {fileID: 745249288}
+  - component: {fileID: 745249293}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone)
   m_TagString: Untagged
@@ -6553,6 +7156,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 745249286}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &745249293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 745249286}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &796221243
 GameObject:
   m_ObjectHideFlags: 0
@@ -6647,6 +7263,7 @@ GameObject:
   - component: {fileID: 807365408}
   - component: {fileID: 807365407}
   - component: {fileID: 807365406}
+  - component: {fileID: 807365411}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone)
   m_TagString: Untagged
@@ -6753,6 +7370,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 807365404}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &807365411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 807365404}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &835199454
 GameObject:
   m_ObjectHideFlags: 0
@@ -6767,6 +7397,7 @@ GameObject:
   - component: {fileID: 835199458}
   - component: {fileID: 835199457}
   - component: {fileID: 835199456}
+  - component: {fileID: 835199461}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone) (50)
   m_TagString: Untagged
@@ -6873,6 +7504,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 835199454}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &835199461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 835199454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &841815949
 GameObject:
   m_ObjectHideFlags: 0
@@ -6887,6 +7531,7 @@ GameObject:
   - component: {fileID: 841815953}
   - component: {fileID: 841815952}
   - component: {fileID: 841815951}
+  - component: {fileID: 841815956}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone)
   m_TagString: Untagged
@@ -6993,6 +7638,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 841815949}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &841815956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 841815949}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &841925812
 GameObject:
   m_ObjectHideFlags: 0
@@ -7007,6 +7665,7 @@ GameObject:
   - component: {fileID: 841925816}
   - component: {fileID: 841925815}
   - component: {fileID: 841925814}
+  - component: {fileID: 841925819}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone) (26)
   m_TagString: Untagged
@@ -7113,6 +7772,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 841925812}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &841925819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 841925812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &842213927
 GameObject:
   m_ObjectHideFlags: 0
@@ -7127,6 +7799,7 @@ GameObject:
   - component: {fileID: 842213931}
   - component: {fileID: 842213930}
   - component: {fileID: 842213929}
+  - component: {fileID: 842213934}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone)
   m_TagString: Untagged
@@ -7233,6 +7906,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 842213927}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &842213934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 842213927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &868232393
 GameObject:
   m_ObjectHideFlags: 0
@@ -7247,6 +7933,7 @@ GameObject:
   - component: {fileID: 868232397}
   - component: {fileID: 868232396}
   - component: {fileID: 868232395}
+  - component: {fileID: 868232400}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone) (10)
   m_TagString: Untagged
@@ -7353,6 +8040,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 868232393}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &868232400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 868232393}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &894322376
 GameObject:
   m_ObjectHideFlags: 0
@@ -7367,6 +8067,7 @@ GameObject:
   - component: {fileID: 894322380}
   - component: {fileID: 894322379}
   - component: {fileID: 894322378}
+  - component: {fileID: 894322383}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone)
   m_TagString: Untagged
@@ -7473,6 +8174,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 894322376}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &894322383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 894322376}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &895441957
 GameObject:
   m_ObjectHideFlags: 0
@@ -7487,6 +8201,7 @@ GameObject:
   - component: {fileID: 895441961}
   - component: {fileID: 895441960}
   - component: {fileID: 895441959}
+  - component: {fileID: 895441964}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone) (27)
   m_TagString: Untagged
@@ -7593,6 +8308,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 895441957}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &895441964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 895441957}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &907626917
 GameObject:
   m_ObjectHideFlags: 0
@@ -7607,6 +8335,7 @@ GameObject:
   - component: {fileID: 907626921}
   - component: {fileID: 907626920}
   - component: {fileID: 907626919}
+  - component: {fileID: 907626924}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone) (28)
   m_TagString: Untagged
@@ -7713,6 +8442,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 907626917}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &907626924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 907626917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &921811186
 GameObject:
   m_ObjectHideFlags: 0
@@ -7727,6 +8469,7 @@ GameObject:
   - component: {fileID: 921811190}
   - component: {fileID: 921811189}
   - component: {fileID: 921811188}
+  - component: {fileID: 921811193}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone)
   m_TagString: Untagged
@@ -7833,6 +8576,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 921811186}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &921811193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 921811186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &926869978
 GameObject:
   m_ObjectHideFlags: 0
@@ -7847,6 +8603,7 @@ GameObject:
   - component: {fileID: 926869982}
   - component: {fileID: 926869981}
   - component: {fileID: 926869980}
+  - component: {fileID: 926869985}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone)
   m_TagString: Untagged
@@ -7953,6 +8710,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 926869978}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &926869985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 926869978}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &928181830
 GameObject:
   m_ObjectHideFlags: 0
@@ -7967,6 +8737,7 @@ GameObject:
   - component: {fileID: 928181834}
   - component: {fileID: 928181833}
   - component: {fileID: 928181832}
+  - component: {fileID: 928181837}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone)
   m_TagString: Untagged
@@ -8073,6 +8844,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 928181830}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &928181837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 928181830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &947192515
 GameObject:
   m_ObjectHideFlags: 0
@@ -8087,6 +8871,7 @@ GameObject:
   - component: {fileID: 947192519}
   - component: {fileID: 947192518}
   - component: {fileID: 947192517}
+  - component: {fileID: 947192522}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone)
   m_TagString: Untagged
@@ -8193,6 +8978,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 947192515}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &947192522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 947192515}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &987360110
 GameObject:
   m_ObjectHideFlags: 0
@@ -8303,6 +9101,7 @@ GameObject:
   - component: {fileID: 988768240}
   - component: {fileID: 988768239}
   - component: {fileID: 988768238}
+  - component: {fileID: 988768243}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone) (54)
   m_TagString: Untagged
@@ -8409,6 +9208,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 988768236}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &988768243
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 988768236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &995221254
 GameObject:
   m_ObjectHideFlags: 0
@@ -8423,6 +9235,7 @@ GameObject:
   - component: {fileID: 995221258}
   - component: {fileID: 995221257}
   - component: {fileID: 995221256}
+  - component: {fileID: 995221261}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone)
   m_TagString: Untagged
@@ -8530,6 +9343,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 995221254}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &995221261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 995221254}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &1002782733
 GameObject:
   m_ObjectHideFlags: 0
@@ -8744,6 +9570,7 @@ GameObject:
   - component: {fileID: 1029762814}
   - component: {fileID: 1029762813}
   - component: {fileID: 1029762812}
+  - component: {fileID: 1029762817}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone) (43)
   m_TagString: Untagged
@@ -8850,6 +9677,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1029762810}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1029762817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1029762810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &1043565419
 GameObject:
   m_ObjectHideFlags: 0
@@ -8864,6 +9704,7 @@ GameObject:
   - component: {fileID: 1043565423}
   - component: {fileID: 1043565422}
   - component: {fileID: 1043565421}
+  - component: {fileID: 1043565426}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone) (39)
   m_TagString: Untagged
@@ -8970,6 +9811,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1043565419}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1043565426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1043565419}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &1052702920
 GameObject:
   m_ObjectHideFlags: 0
@@ -8984,6 +9838,7 @@ GameObject:
   - component: {fileID: 1052702924}
   - component: {fileID: 1052702923}
   - component: {fileID: 1052702922}
+  - component: {fileID: 1052702927}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone) (2)
   m_TagString: Untagged
@@ -9090,6 +9945,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1052702920}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1052702927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1052702920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &1069926256
 GameObject:
   m_ObjectHideFlags: 0
@@ -9104,6 +9972,7 @@ GameObject:
   - component: {fileID: 1069926260}
   - component: {fileID: 1069926259}
   - component: {fileID: 1069926258}
+  - component: {fileID: 1069926263}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone) (23)
   m_TagString: Untagged
@@ -9210,6 +10079,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1069926256}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1069926263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1069926256}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &1084168709
 GameObject:
   m_ObjectHideFlags: 0
@@ -9224,6 +10106,7 @@ GameObject:
   - component: {fileID: 1084168713}
   - component: {fileID: 1084168712}
   - component: {fileID: 1084168711}
+  - component: {fileID: 1084168716}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone)
   m_TagString: Untagged
@@ -9330,6 +10213,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1084168709}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1084168716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1084168709}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &1111379377
 GameObject:
   m_ObjectHideFlags: 0
@@ -9344,6 +10240,7 @@ GameObject:
   - component: {fileID: 1111379381}
   - component: {fileID: 1111379380}
   - component: {fileID: 1111379379}
+  - component: {fileID: 1111379384}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone)
   m_TagString: Untagged
@@ -9450,6 +10347,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1111379377}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1111379384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1111379377}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &1112554005
 GameObject:
   m_ObjectHideFlags: 0
@@ -9464,6 +10374,7 @@ GameObject:
   - component: {fileID: 1112554009}
   - component: {fileID: 1112554008}
   - component: {fileID: 1112554007}
+  - component: {fileID: 1112554012}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone) (9)
   m_TagString: Untagged
@@ -9570,6 +10481,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1112554005}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1112554012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1112554005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &1119166492
 GameObject:
   m_ObjectHideFlags: 0
@@ -9584,6 +10508,7 @@ GameObject:
   - component: {fileID: 1119166496}
   - component: {fileID: 1119166495}
   - component: {fileID: 1119166494}
+  - component: {fileID: 1119166499}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone) (3)
   m_TagString: Untagged
@@ -9690,6 +10615,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1119166492}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1119166499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1119166492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &1130140163
 GameObject:
   m_ObjectHideFlags: 0
@@ -9704,6 +10642,7 @@ GameObject:
   - component: {fileID: 1130140167}
   - component: {fileID: 1130140166}
   - component: {fileID: 1130140165}
+  - component: {fileID: 1130140170}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone)
   m_TagString: Untagged
@@ -9810,6 +10749,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1130140163}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1130140170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1130140163}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &1138644710
 GameObject:
   m_ObjectHideFlags: 0
@@ -9824,6 +10776,7 @@ GameObject:
   - component: {fileID: 1138644714}
   - component: {fileID: 1138644713}
   - component: {fileID: 1138644712}
+  - component: {fileID: 1138644717}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone) (25)
   m_TagString: Untagged
@@ -9930,6 +10883,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1138644710}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1138644717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1138644710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &1158860446
 GameObject:
   m_ObjectHideFlags: 0
@@ -9944,6 +10910,7 @@ GameObject:
   - component: {fileID: 1158860450}
   - component: {fileID: 1158860449}
   - component: {fileID: 1158860448}
+  - component: {fileID: 1158860453}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone)
   m_TagString: Untagged
@@ -10050,6 +11017,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1158860446}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1158860453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1158860446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &1164224542
 GameObject:
   m_ObjectHideFlags: 0
@@ -10130,6 +11110,7 @@ GameObject:
   - component: {fileID: 1173939811}
   - component: {fileID: 1173939810}
   - component: {fileID: 1173939809}
+  - component: {fileID: 1173939814}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone)
   m_TagString: Untagged
@@ -10236,6 +11217,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1173939807}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1173939814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1173939807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &1193538937
 GameObject:
   m_ObjectHideFlags: 0
@@ -10378,6 +11372,7 @@ GameObject:
   - component: {fileID: 1204344078}
   - component: {fileID: 1204344077}
   - component: {fileID: 1204344076}
+  - component: {fileID: 1204344081}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone) (62)
   m_TagString: Untagged
@@ -10484,6 +11479,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1204344074}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1204344081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1204344074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &1227249552
 GameObject:
   m_ObjectHideFlags: 0
@@ -10498,6 +11506,7 @@ GameObject:
   - component: {fileID: 1227249556}
   - component: {fileID: 1227249555}
   - component: {fileID: 1227249554}
+  - component: {fileID: 1227249559}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone) (47)
   m_TagString: Untagged
@@ -10604,6 +11613,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1227249552}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1227249559
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1227249552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &1230922646
 GameObject:
   m_ObjectHideFlags: 0
@@ -10618,6 +11640,7 @@ GameObject:
   - component: {fileID: 1230922650}
   - component: {fileID: 1230922649}
   - component: {fileID: 1230922648}
+  - component: {fileID: 1230922653}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone) (16)
   m_TagString: Untagged
@@ -10724,6 +11747,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1230922646}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1230922653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1230922646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &1257455257
 GameObject:
   m_ObjectHideFlags: 0
@@ -10738,6 +11774,7 @@ GameObject:
   - component: {fileID: 1257455261}
   - component: {fileID: 1257455260}
   - component: {fileID: 1257455259}
+  - component: {fileID: 1257455264}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone)
   m_TagString: Untagged
@@ -10844,6 +11881,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1257455257}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1257455264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1257455257}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &1268672132
 GameObject:
   m_ObjectHideFlags: 0
@@ -10858,6 +11908,7 @@ GameObject:
   - component: {fileID: 1268672136}
   - component: {fileID: 1268672135}
   - component: {fileID: 1268672134}
+  - component: {fileID: 1268672139}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone) (49)
   m_TagString: Untagged
@@ -10964,6 +12015,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1268672132}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1268672139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1268672132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &1275458595
 GameObject:
   m_ObjectHideFlags: 0
@@ -10978,6 +12042,7 @@ GameObject:
   - component: {fileID: 1275458599}
   - component: {fileID: 1275458598}
   - component: {fileID: 1275458597}
+  - component: {fileID: 1275458602}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone) (8)
   m_TagString: Untagged
@@ -11084,6 +12149,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1275458595}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1275458602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1275458595}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &1288146636
 GameObject:
   m_ObjectHideFlags: 0
@@ -11098,6 +12176,7 @@ GameObject:
   - component: {fileID: 1288146640}
   - component: {fileID: 1288146639}
   - component: {fileID: 1288146638}
+  - component: {fileID: 1288146643}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone) (44)
   m_TagString: Untagged
@@ -11204,6 +12283,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1288146636}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1288146643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1288146636}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &1300529727
 GameObject:
   m_ObjectHideFlags: 0
@@ -11359,6 +12451,7 @@ GameObject:
   - component: {fileID: 1305526232}
   - component: {fileID: 1305526231}
   - component: {fileID: 1305526230}
+  - component: {fileID: 1305526235}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone)
   m_TagString: Untagged
@@ -11465,6 +12558,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1305526228}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1305526235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1305526228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &1330724896
 GameObject:
   m_ObjectHideFlags: 0
@@ -11479,6 +12585,7 @@ GameObject:
   - component: {fileID: 1330724900}
   - component: {fileID: 1330724899}
   - component: {fileID: 1330724898}
+  - component: {fileID: 1330724903}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone) (20)
   m_TagString: Untagged
@@ -11585,6 +12692,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1330724896}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1330724903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1330724896}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &1341659857
 GameObject:
   m_ObjectHideFlags: 0
@@ -11599,6 +12719,7 @@ GameObject:
   - component: {fileID: 1341659861}
   - component: {fileID: 1341659860}
   - component: {fileID: 1341659859}
+  - component: {fileID: 1341659864}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone) (64)
   m_TagString: Untagged
@@ -11705,6 +12826,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1341659857}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1341659864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1341659857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &1344750020
 GameObject:
   m_ObjectHideFlags: 0
@@ -11719,6 +12853,7 @@ GameObject:
   - component: {fileID: 1344750024}
   - component: {fileID: 1344750023}
   - component: {fileID: 1344750022}
+  - component: {fileID: 1344750027}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone)
   m_TagString: Untagged
@@ -11825,6 +12960,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1344750020}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1344750027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1344750020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &1346874061
 GameObject:
   m_ObjectHideFlags: 0
@@ -11839,6 +12987,7 @@ GameObject:
   - component: {fileID: 1346874065}
   - component: {fileID: 1346874064}
   - component: {fileID: 1346874063}
+  - component: {fileID: 1346874068}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone)
   m_TagString: Untagged
@@ -11945,6 +13094,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1346874061}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1346874068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1346874061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &1348550946
 GameObject:
   m_ObjectHideFlags: 0
@@ -11959,6 +13121,7 @@ GameObject:
   - component: {fileID: 1348550950}
   - component: {fileID: 1348550949}
   - component: {fileID: 1348550948}
+  - component: {fileID: 1348550953}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone)
   m_TagString: Untagged
@@ -12065,6 +13228,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1348550946}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1348550953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1348550946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &1358455711
 GameObject:
   m_ObjectHideFlags: 0
@@ -12079,6 +13255,7 @@ GameObject:
   - component: {fileID: 1358455715}
   - component: {fileID: 1358455714}
   - component: {fileID: 1358455713}
+  - component: {fileID: 1358455718}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone) (42)
   m_TagString: Untagged
@@ -12185,6 +13362,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1358455711}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1358455718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1358455711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &1366910253
 GameObject:
   m_ObjectHideFlags: 0
@@ -12273,6 +13463,7 @@ GameObject:
   - component: {fileID: 1382843503}
   - component: {fileID: 1382843502}
   - component: {fileID: 1382843501}
+  - component: {fileID: 1382843506}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone) (53)
   m_TagString: Untagged
@@ -12379,6 +13570,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1382843499}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1382843506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1382843499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &1392305500
 GameObject:
   m_ObjectHideFlags: 0
@@ -12393,6 +13597,7 @@ GameObject:
   - component: {fileID: 1392305504}
   - component: {fileID: 1392305503}
   - component: {fileID: 1392305502}
+  - component: {fileID: 1392305507}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone)
   m_TagString: Untagged
@@ -12499,6 +13704,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1392305500}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1392305507
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1392305500}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &1403584596
 GameObject:
   m_ObjectHideFlags: 0
@@ -12513,6 +13731,7 @@ GameObject:
   - component: {fileID: 1403584600}
   - component: {fileID: 1403584599}
   - component: {fileID: 1403584598}
+  - component: {fileID: 1403584603}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone)
   m_TagString: Untagged
@@ -12619,6 +13838,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1403584596}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1403584603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1403584596}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &1406244688
 GameObject:
   m_ObjectHideFlags: 0
@@ -12633,6 +13865,7 @@ GameObject:
   - component: {fileID: 1406244692}
   - component: {fileID: 1406244691}
   - component: {fileID: 1406244690}
+  - component: {fileID: 1406244695}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone)
   m_TagString: Untagged
@@ -12739,6 +13972,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1406244688}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1406244695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1406244688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &1408520286
 GameObject:
   m_ObjectHideFlags: 0
@@ -12753,6 +13999,7 @@ GameObject:
   - component: {fileID: 1408520290}
   - component: {fileID: 1408520289}
   - component: {fileID: 1408520288}
+  - component: {fileID: 1408520293}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone)
   m_TagString: Untagged
@@ -12859,6 +14106,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1408520286}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1408520293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1408520286}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &1441448420
 GameObject:
   m_ObjectHideFlags: 0
@@ -12873,6 +14133,7 @@ GameObject:
   - component: {fileID: 1441448424}
   - component: {fileID: 1441448423}
   - component: {fileID: 1441448422}
+  - component: {fileID: 1441448427}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone)
   m_TagString: Untagged
@@ -12979,6 +14240,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1441448420}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1441448427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1441448420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &1451546865
 GameObject:
   m_ObjectHideFlags: 0
@@ -13070,6 +14344,7 @@ GameObject:
   - component: {fileID: 1458390179}
   - component: {fileID: 1458390178}
   - component: {fileID: 1458390177}
+  - component: {fileID: 1458390182}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone)
   m_TagString: Untagged
@@ -13176,6 +14451,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1458390175}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1458390182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1458390175}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &1459271309
 GameObject:
   m_ObjectHideFlags: 0
@@ -13220,6 +14508,7 @@ GameObject:
   - component: {fileID: 1466027016}
   - component: {fileID: 1466027015}
   - component: {fileID: 1466027014}
+  - component: {fileID: 1466027019}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone)
   m_TagString: Untagged
@@ -13326,6 +14615,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1466027012}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1466027019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1466027012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &1484194860
 GameObject:
   m_ObjectHideFlags: 0
@@ -13340,6 +14642,7 @@ GameObject:
   - component: {fileID: 1484194864}
   - component: {fileID: 1484194863}
   - component: {fileID: 1484194862}
+  - component: {fileID: 1484194867}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone)
   m_TagString: Untagged
@@ -13446,6 +14749,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1484194860}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1484194867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1484194860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &1494060676
 GameObject:
   m_ObjectHideFlags: 0
@@ -13460,6 +14776,7 @@ GameObject:
   - component: {fileID: 1494060680}
   - component: {fileID: 1494060679}
   - component: {fileID: 1494060678}
+  - component: {fileID: 1494060683}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone) (52)
   m_TagString: Untagged
@@ -13566,6 +14883,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1494060676}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1494060683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1494060676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &1495492863
 GameObject:
   m_ObjectHideFlags: 0
@@ -13739,6 +15069,7 @@ GameObject:
   - component: {fileID: 1553145694}
   - component: {fileID: 1553145693}
   - component: {fileID: 1553145692}
+  - component: {fileID: 1553145697}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone)
   m_TagString: Untagged
@@ -13845,6 +15176,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1553145690}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1553145697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1553145690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &1558306898
 GameObject:
   m_ObjectHideFlags: 0
@@ -13859,6 +15203,7 @@ GameObject:
   - component: {fileID: 1558306902}
   - component: {fileID: 1558306901}
   - component: {fileID: 1558306900}
+  - component: {fileID: 1558306905}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone)
   m_TagString: Untagged
@@ -13965,6 +15310,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1558306898}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1558306905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1558306898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &1560807031
 GameObject:
   m_ObjectHideFlags: 0
@@ -13979,6 +15337,7 @@ GameObject:
   - component: {fileID: 1560807035}
   - component: {fileID: 1560807034}
   - component: {fileID: 1560807033}
+  - component: {fileID: 1560807038}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone) (11)
   m_TagString: Untagged
@@ -14085,6 +15444,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1560807031}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1560807038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1560807031}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &1561744740
 GameObject:
   m_ObjectHideFlags: 0
@@ -14129,6 +15501,7 @@ GameObject:
   - component: {fileID: 1575618186}
   - component: {fileID: 1575618185}
   - component: {fileID: 1575618184}
+  - component: {fileID: 1575618189}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone)
   m_TagString: Untagged
@@ -14235,6 +15608,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1575618182}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1575618189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1575618182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &1590677497
 GameObject:
   m_ObjectHideFlags: 0
@@ -14249,6 +15635,7 @@ GameObject:
   - component: {fileID: 1590677501}
   - component: {fileID: 1590677500}
   - component: {fileID: 1590677499}
+  - component: {fileID: 1590677504}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone)
   m_TagString: Untagged
@@ -14355,6 +15742,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1590677497}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1590677504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1590677497}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!4 &1599226210 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7209356990316241655, guid: 14c3de55e48b3794e88cf4de7b02d047,
@@ -14483,6 +15883,7 @@ GameObject:
   - component: {fileID: 1629803696}
   - component: {fileID: 1629803695}
   - component: {fileID: 1629803694}
+  - component: {fileID: 1629803699}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone)
   m_TagString: Untagged
@@ -14589,6 +15990,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1629803692}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1629803699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1629803692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &1639798392
 GameObject:
   m_ObjectHideFlags: 0
@@ -14603,6 +16017,7 @@ GameObject:
   - component: {fileID: 1639798396}
   - component: {fileID: 1639798395}
   - component: {fileID: 1639798394}
+  - component: {fileID: 1639798399}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone) (55)
   m_TagString: Untagged
@@ -14709,6 +16124,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1639798392}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1639798399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1639798392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &1687454538
 GameObject:
   m_ObjectHideFlags: 0
@@ -14723,6 +16151,7 @@ GameObject:
   - component: {fileID: 1687454542}
   - component: {fileID: 1687454541}
   - component: {fileID: 1687454540}
+  - component: {fileID: 1687454545}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone)
   m_TagString: Untagged
@@ -14829,6 +16258,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1687454538}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1687454545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1687454538}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &1690358047
 GameObject:
   m_ObjectHideFlags: 0
@@ -14843,6 +16285,7 @@ GameObject:
   - component: {fileID: 1690358051}
   - component: {fileID: 1690358050}
   - component: {fileID: 1690358049}
+  - component: {fileID: 1690358054}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone)
   m_TagString: Untagged
@@ -14949,6 +16392,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1690358047}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1690358054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1690358047}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &1697415545
 GameObject:
   m_ObjectHideFlags: 0
@@ -14963,6 +16419,7 @@ GameObject:
   - component: {fileID: 1697415549}
   - component: {fileID: 1697415548}
   - component: {fileID: 1697415547}
+  - component: {fileID: 1697415552}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone)
   m_TagString: Untagged
@@ -15069,6 +16526,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1697415545}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1697415552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1697415545}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &1702562037
 GameObject:
   m_ObjectHideFlags: 0
@@ -15083,6 +16553,7 @@ GameObject:
   - component: {fileID: 1702562041}
   - component: {fileID: 1702562040}
   - component: {fileID: 1702562039}
+  - component: {fileID: 1702562044}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone) (7)
   m_TagString: Untagged
@@ -15189,6 +16660,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1702562037}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1702562044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1702562037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &1723314609
 GameObject:
   m_ObjectHideFlags: 0
@@ -15280,6 +16764,7 @@ GameObject:
   - component: {fileID: 1745078650}
   - component: {fileID: 1745078649}
   - component: {fileID: 1745078648}
+  - component: {fileID: 1745078653}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone) (30)
   m_TagString: Untagged
@@ -15386,6 +16871,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1745078646}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1745078653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1745078646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &1746486168
 GameObject:
   m_ObjectHideFlags: 0
@@ -15400,6 +16898,7 @@ GameObject:
   - component: {fileID: 1746486172}
   - component: {fileID: 1746486171}
   - component: {fileID: 1746486170}
+  - component: {fileID: 1746486175}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone) (35)
   m_TagString: Untagged
@@ -15506,6 +17005,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1746486168}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1746486175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1746486168}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &1763983297
 GameObject:
   m_ObjectHideFlags: 0
@@ -15621,6 +17133,7 @@ GameObject:
   - component: {fileID: 1769574430}
   - component: {fileID: 1769574429}
   - component: {fileID: 1769574428}
+  - component: {fileID: 1769574433}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone)
   m_TagString: Untagged
@@ -15727,6 +17240,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1769574426}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1769574433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1769574426}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!4 &1783118964 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2262232263720331087, guid: d4600449ee83db04c8f4bf46c158b0b6,
@@ -15747,6 +17273,7 @@ GameObject:
   - component: {fileID: 1793563275}
   - component: {fileID: 1793563274}
   - component: {fileID: 1793563273}
+  - component: {fileID: 1793563278}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone)
   m_TagString: Untagged
@@ -15853,6 +17380,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1793563271}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1793563278
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1793563271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &1800578586
 GameObject:
   m_ObjectHideFlags: 0
@@ -15867,6 +17407,7 @@ GameObject:
   - component: {fileID: 1800578590}
   - component: {fileID: 1800578589}
   - component: {fileID: 1800578588}
+  - component: {fileID: 1800578593}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone)
   m_TagString: Untagged
@@ -15973,6 +17514,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1800578586}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1800578593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1800578586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &1831742896
 GameObject:
   m_ObjectHideFlags: 0
@@ -15987,6 +17541,7 @@ GameObject:
   - component: {fileID: 1831742900}
   - component: {fileID: 1831742899}
   - component: {fileID: 1831742898}
+  - component: {fileID: 1831742903}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone) (40)
   m_TagString: Untagged
@@ -16093,6 +17648,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1831742896}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1831742903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1831742896}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &1848795173
 GameObject:
   m_ObjectHideFlags: 0
@@ -16107,6 +17675,7 @@ GameObject:
   - component: {fileID: 1848795177}
   - component: {fileID: 1848795176}
   - component: {fileID: 1848795175}
+  - component: {fileID: 1848795180}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone) (12)
   m_TagString: Untagged
@@ -16213,6 +17782,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1848795173}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1848795180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1848795173}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &1857589688
 GameObject:
   m_ObjectHideFlags: 0
@@ -16306,6 +17888,7 @@ GameObject:
   - component: {fileID: 1860008771}
   - component: {fileID: 1860008770}
   - component: {fileID: 1860008769}
+  - component: {fileID: 1860008774}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone)
   m_TagString: Untagged
@@ -16412,6 +17995,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1860008767}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1860008774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1860008767}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &1861330165
 GameObject:
   m_ObjectHideFlags: 0
@@ -16426,6 +18022,7 @@ GameObject:
   - component: {fileID: 1861330169}
   - component: {fileID: 1861330168}
   - component: {fileID: 1861330167}
+  - component: {fileID: 1861330172}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone)
   m_TagString: Untagged
@@ -16532,6 +18129,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1861330165}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1861330172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1861330165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &1875282869
 GameObject:
   m_ObjectHideFlags: 0
@@ -16546,6 +18156,7 @@ GameObject:
   - component: {fileID: 1875282873}
   - component: {fileID: 1875282872}
   - component: {fileID: 1875282871}
+  - component: {fileID: 1875282876}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone)
   m_TagString: Untagged
@@ -16652,6 +18263,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1875282869}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1875282876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1875282869}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &1886239716
 GameObject:
   m_ObjectHideFlags: 0
@@ -16666,6 +18290,7 @@ GameObject:
   - component: {fileID: 1886239720}
   - component: {fileID: 1886239719}
   - component: {fileID: 1886239718}
+  - component: {fileID: 1886239723}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone)
   m_TagString: Untagged
@@ -16772,6 +18397,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1886239716}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1886239723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1886239716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &1890288116
 GameObject:
   m_ObjectHideFlags: 0
@@ -16786,6 +18424,7 @@ GameObject:
   - component: {fileID: 1890288120}
   - component: {fileID: 1890288119}
   - component: {fileID: 1890288118}
+  - component: {fileID: 1890288123}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone) (57)
   m_TagString: Untagged
@@ -16892,6 +18531,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1890288116}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1890288123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1890288116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &1890559867
 GameObject:
   m_ObjectHideFlags: 0
@@ -16906,6 +18558,7 @@ GameObject:
   - component: {fileID: 1890559871}
   - component: {fileID: 1890559870}
   - component: {fileID: 1890559869}
+  - component: {fileID: 1890559874}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone)
   m_TagString: Untagged
@@ -17012,6 +18665,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1890559867}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1890559874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1890559867}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &1900946118
 GameObject:
   m_ObjectHideFlags: 0
@@ -17026,6 +18692,7 @@ GameObject:
   - component: {fileID: 1900946122}
   - component: {fileID: 1900946121}
   - component: {fileID: 1900946120}
+  - component: {fileID: 1900946125}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone) (59)
   m_TagString: Untagged
@@ -17132,6 +18799,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1900946118}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1900946125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1900946118}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &1905286234
 GameObject:
   m_ObjectHideFlags: 0
@@ -17146,6 +18826,7 @@ GameObject:
   - component: {fileID: 1905286238}
   - component: {fileID: 1905286237}
   - component: {fileID: 1905286236}
+  - component: {fileID: 1905286241}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone) (6)
   m_TagString: Untagged
@@ -17252,6 +18933,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1905286234}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1905286241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1905286234}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &1907025693
 GameObject:
   m_ObjectHideFlags: 0
@@ -17266,6 +18960,7 @@ GameObject:
   - component: {fileID: 1907025697}
   - component: {fileID: 1907025696}
   - component: {fileID: 1907025695}
+  - component: {fileID: 1907025700}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone) (21)
   m_TagString: Untagged
@@ -17372,6 +19067,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1907025693}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1907025700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1907025693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &1912500509
 GameObject:
   m_ObjectHideFlags: 0
@@ -17469,6 +19177,7 @@ GameObject:
   - component: {fileID: 1945158651}
   - component: {fileID: 1945158650}
   - component: {fileID: 1945158649}
+  - component: {fileID: 1945158654}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone) (4)
   m_TagString: Untagged
@@ -17575,6 +19284,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1945158647}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1945158654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1945158647}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &1963265909
 GameObject:
   m_ObjectHideFlags: 0
@@ -17589,6 +19311,7 @@ GameObject:
   - component: {fileID: 1963265913}
   - component: {fileID: 1963265912}
   - component: {fileID: 1963265911}
+  - component: {fileID: 1963265916}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone)
   m_TagString: Untagged
@@ -17695,6 +19418,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1963265909}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1963265916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1963265909}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &1972486958
 GameObject:
   m_ObjectHideFlags: 0
@@ -17709,6 +19445,7 @@ GameObject:
   - component: {fileID: 1972486962}
   - component: {fileID: 1972486961}
   - component: {fileID: 1972486960}
+  - component: {fileID: 1972486965}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone)
   m_TagString: Untagged
@@ -17815,6 +19552,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1972486958}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1972486965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1972486958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &2009615820
 GameObject:
   m_ObjectHideFlags: 0
@@ -17989,6 +19739,7 @@ GameObject:
   - component: {fileID: 2026506238}
   - component: {fileID: 2026506237}
   - component: {fileID: 2026506236}
+  - component: {fileID: 2026506241}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone)
   m_TagString: Untagged
@@ -18095,6 +19846,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2026506234}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2026506241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2026506234}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1001 &2058064047
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18184,6 +19948,7 @@ GameObject:
   - component: {fileID: 2058827531}
   - component: {fileID: 2058827530}
   - component: {fileID: 2058827529}
+  - component: {fileID: 2058827534}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone)
   m_TagString: Untagged
@@ -18290,6 +20055,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2058827527}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2058827534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2058827527}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &2064113820
 GameObject:
   m_ObjectHideFlags: 0
@@ -18304,6 +20082,7 @@ GameObject:
   - component: {fileID: 2064113824}
   - component: {fileID: 2064113823}
   - component: {fileID: 2064113822}
+  - component: {fileID: 2064113827}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone) (34)
   m_TagString: Untagged
@@ -18410,6 +20189,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2064113820}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2064113827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2064113820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &2083836123
 GameObject:
   m_ObjectHideFlags: 0
@@ -18424,6 +20216,7 @@ GameObject:
   - component: {fileID: 2083836127}
   - component: {fileID: 2083836126}
   - component: {fileID: 2083836125}
+  - component: {fileID: 2083836130}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone)
   m_TagString: Untagged
@@ -18530,6 +20323,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2083836123}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2083836130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2083836123}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &2094083680
 GameObject:
   m_ObjectHideFlags: 0
@@ -18621,6 +20427,7 @@ GameObject:
   - component: {fileID: 2095142077}
   - component: {fileID: 2095142076}
   - component: {fileID: 2095142075}
+  - component: {fileID: 2095142080}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone) (37)
   m_TagString: Untagged
@@ -18727,6 +20534,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2095142073}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2095142080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2095142073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &2125139417
 GameObject:
   m_ObjectHideFlags: 0
@@ -18741,6 +20561,7 @@ GameObject:
   - component: {fileID: 2125139421}
   - component: {fileID: 2125139420}
   - component: {fileID: 2125139419}
+  - component: {fileID: 2125139424}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone) (24)
   m_TagString: Untagged
@@ -18847,6 +20668,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2125139417}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2125139424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2125139417}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &2125569268
 GameObject:
   m_ObjectHideFlags: 0
@@ -18861,6 +20695,7 @@ GameObject:
   - component: {fileID: 2125569272}
   - component: {fileID: 2125569271}
   - component: {fileID: 2125569270}
+  - component: {fileID: 2125569275}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone) (51)
   m_TagString: Untagged
@@ -18967,6 +20802,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2125569268}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2125569275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2125569268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &2132167487
 GameObject:
   m_ObjectHideFlags: 0
@@ -19055,6 +20903,7 @@ GameObject:
   - component: {fileID: 2133998889}
   - component: {fileID: 2133998888}
   - component: {fileID: 2133998887}
+  - component: {fileID: 2133998892}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone)
   m_TagString: Untagged
@@ -19161,6 +21010,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2133998885}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2133998892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2133998885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &2139968567
 GameObject:
   m_ObjectHideFlags: 0
@@ -19175,6 +21037,7 @@ GameObject:
   - component: {fileID: 2139968571}
   - component: {fileID: 2139968570}
   - component: {fileID: 2139968569}
+  - component: {fileID: 2139968574}
   m_Layer: 0
   m_Name: LaserProjectileTest(Clone) (58)
   m_TagString: Untagged
@@ -19281,6 +21144,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2139968567}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2139968574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2139968567}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7fe1023f32995428b3aaa895f44143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileTip: {x: 0, y: 0, z: 0}
 --- !u!1 &2146187794
 GameObject:
   m_ObjectHideFlags: 0
@@ -19334,6 +21210,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 140876751}
     m_Modifications:
+    - target: {fileID: 1839878876931295648, guid: 14c3de55e48b3794e88cf4de7b02d047,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 17.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 1839878877738899834, guid: 14c3de55e48b3794e88cf4de7b02d047,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -15.52
+      objectReference: {fileID: 0}
     - target: {fileID: 7209356990316241655, guid: 14c3de55e48b3794e88cf4de7b02d047,
         type: 3}
       propertyPath: m_LocalPosition.x

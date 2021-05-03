@@ -31,6 +31,7 @@ public class ReflectableProjectileScript : MonoBehaviour
 			{
 				if (scoreZones[i].bounds.Contains(projectileTip))
 				{
+					UIMgr.inst.UpdateScore(i);
 					Debug.Log("hit box " + i);
 					ent.velocity.x = -ent.velocity.x;
 				}

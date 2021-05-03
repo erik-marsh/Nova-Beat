@@ -45,6 +45,7 @@ public class NonReflectableProjectileScript : MonoBehaviour
 		// test if moving up should give score
 		if (Input.GetKey(KeyCode.UpArrow))
 		{
+			Debug.Log("uparrow");
 			for (int i = 0; i < bottomScoreZones.Count; i++)
 			{
 				if (bottomMissZone.bounds.Contains(projectileTip))
@@ -55,15 +56,16 @@ public class NonReflectableProjectileScript : MonoBehaviour
 
 				if (bottomScoreZones[i].bounds.Contains(projectileTip))
 				{
+					UIMgr.inst.UpdateScore(i);
 					Debug.Log("Score update on bottomScoreZone " + i);
 					stopCheckingHitreg = true;
 					return;
-					// update score
 				}
 			}
 		}
 		if (Input.GetKey(KeyCode.DownArrow))
 		{
+			Debug.Log("downarrow");
 			for (int i = 0; i < topScoreZones.Count; i++)
 			{
 				if (topMissZone.bounds.Contains(projectileTip))
@@ -74,10 +76,10 @@ public class NonReflectableProjectileScript : MonoBehaviour
 
 				if (topScoreZones[i].bounds.Contains(projectileTip))
 				{
+					UIMgr.inst.UpdateScore(i);
 					Debug.Log("Score update on topScoreZone " + i);
 					stopCheckingHitreg = true;
 					return;
-					// update score
 				}
 			}
 		}
