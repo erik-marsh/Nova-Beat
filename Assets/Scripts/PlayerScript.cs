@@ -19,13 +19,16 @@ public class PlayerScript : MonoBehaviour
 
 	private void Update()
 	{
-        //update sprite to match health
-        spriteRenderer.sprite = healthSprite[playerHealth - 1];
 
 		if (playerHealth <= 0)
 		{
 			// kill player, enter game over screen
 		}
+        else
+        {
+            //update sprite to match health
+            spriteRenderer.sprite = healthSprite[playerHealth - 1];
+        }
 	}
 
 	private void OnTriggerEnter(Collider collision)
