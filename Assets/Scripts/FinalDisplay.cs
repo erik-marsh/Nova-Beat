@@ -66,7 +66,7 @@ public class FinalDisplay : MonoBehaviour
 
     }
 
-    void UpdateCombo(int combo)
+    public void UpdateCombo(int combo)
     {
         if (combo > maxCombo)
         {
