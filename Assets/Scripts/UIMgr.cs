@@ -25,6 +25,8 @@ public class UIMgr : MonoBehaviour
 
 	public void SetPlayerHealth(int playerHealth)
 	{
+        healthText.text = playerHealth.ToString();
+        /*
         switch (playerHealth)
         {
             case 3:
@@ -44,7 +46,8 @@ public class UIMgr : MonoBehaviour
                 Debug.Log("UIMGR:: SetPlayerHealth called with out of bounds value");
                 break;
         }
-	}
+        */
+    }
 
     public void SetComboText(int currentCombo)
     {

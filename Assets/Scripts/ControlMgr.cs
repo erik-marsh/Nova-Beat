@@ -25,6 +25,8 @@ public class ControlMgr : MonoBehaviour
 	private GameObject player;
 	private PlayerPosition playerState = PlayerPosition.CENTER;
 
+    public AudioSource beatSound;
+
 	private void Awake()
 	{
 		inst = this;
@@ -64,7 +66,8 @@ public class ControlMgr : MonoBehaviour
 		{
 			if (Input.GetKeyDown(KeyCode.DownArrow)) // check if down was pressed
 			{
-				posVector.y -= 2 * moveDistance;
+                beatSound.Play();
+                posVector.y -= 2 * moveDistance;
 				playerState = PlayerPosition.DOWN;
 			}
 			else if (Input.GetKey(KeyCode.UpArrow)) // otherwise, check if the player is still holding up
@@ -74,7 +77,8 @@ public class ControlMgr : MonoBehaviour
 			}
 			else if (Input.GetKey(KeyCode.DownArrow)) // THEN we check if down is still held and update accordingly
 			{
-				posVector.y -= 2 * moveDistance;
+                beatSound.Play();
+                posVector.y -= 2 * moveDistance;
 				playerState = PlayerPosition.DOWN;
 			}
 			else // otherwise, return to center
@@ -87,7 +91,8 @@ public class ControlMgr : MonoBehaviour
 		{
 			if (Input.GetKeyDown(KeyCode.UpArrow)) // check if up was pressed
 			{
-				posVector.y += 2 * moveDistance;
+                beatSound.Play();
+                posVector.y += 2 * moveDistance;
 				playerState = PlayerPosition.UP;
 			}
 			else if (Input.GetKey(KeyCode.DownArrow)) // otherwise, check if the player is still holding down
@@ -97,7 +102,8 @@ public class ControlMgr : MonoBehaviour
 			}
 			else if (Input.GetKey(KeyCode.UpArrow)) // THEN we check if up is still held and update accordingly
 			{
-				posVector.y += 2 * moveDistance;
+                beatSound.Play();
+                posVector.y += 2 * moveDistance;
 				playerState = PlayerPosition.UP;
 			}
 			else // otherwise, return to center
@@ -110,12 +116,14 @@ public class ControlMgr : MonoBehaviour
 		{
 			if (Input.GetKeyDown(KeyCode.DownArrow)) // check if down was pressed
 			{
-				posVector.y -= moveDistance;
+                beatSound.Play();
+                posVector.y -= moveDistance;
 				playerState = PlayerPosition.DOWN;
 			}
 			else if (Input.GetKeyDown(KeyCode.UpArrow)) // check if up was pressed
 			{
-				posVector.y += moveDistance;
+                beatSound.Play();
+                posVector.y += moveDistance;
 				playerState = PlayerPosition.UP;
 			}
 			// else do nothing

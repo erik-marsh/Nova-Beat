@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class PlayerScript : MonoBehaviour
 {
@@ -19,16 +20,17 @@ public class PlayerScript : MonoBehaviour
 
 	private void Update()
 	{
-
+        
 		if (playerHealth <= 0)
 		{
-			// kill player, enter game over screen
+            SceneManager.LoadScene("EndScreen");
 		}
         else
         {
             //update sprite to match health
-            spriteRenderer.sprite = healthSprite[playerHealth - 1];
+            //spriteRenderer.sprite = healthSprite[playerHealth - 1];
         }
+        
 	}
 
 	private void OnTriggerEnter(Collider collision)

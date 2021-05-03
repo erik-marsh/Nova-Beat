@@ -45,7 +45,7 @@ public class NonReflectableProjectileScript : MonoBehaviour
 		// test if moving up should give score
 		if (Input.GetKey(KeyCode.UpArrow))
 		{
-			Debug.Log("uparrow");
+			//Debug.Log("uparrow");
 			for (int i = 0; i < bottomScoreZones.Count; i++)
 			{
 				if (bottomMissZone.bounds.Contains(projectileTip))
@@ -67,7 +67,7 @@ public class NonReflectableProjectileScript : MonoBehaviour
 		}
 		if (Input.GetKey(KeyCode.DownArrow))
 		{
-			Debug.Log("downarrow");
+			//Debug.Log("downarrow");
 			for (int i = 0; i < topScoreZones.Count; i++)
 			{
 				if (topMissZone.bounds.Contains(projectileTip))
