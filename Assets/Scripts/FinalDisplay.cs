@@ -2,18 +2,30 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ScoreDisplay : MonoBehaviour
+public class FinalDisplay : MonoBehaviour
 {
+    public static FinalDisplay inst;
+
+    //images for final grade
     public GameObject imgPerfect;
     public GameObject imgA;
     public GameObject imgB;
     public GameObject imgC;
     public GameObject imgF;
 
+    //variables to keep track of score
+    public int numPerfects;
+    public int numGreats;
+    public int numOkays;
+    public int numBads;
+    public int numTerribles;
+
     public int score;
 
     void Start()
     {
+        inst = this;
+
         //redundant, but just to make sure all are not displaying:
         imgPerfect.SetActive(false);
         imgA.SetActive(false);
@@ -52,6 +64,16 @@ public class ScoreDisplay : MonoBehaviour
         {
             imgPerfect.SetActive(true);
         }
+    }
+
+    void CalculateScore()
+    {
+
+    }
+
+    void DisplayStats()
+    {
+
     }
 
 }
