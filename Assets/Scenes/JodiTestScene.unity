@@ -2181,8 +2181,8 @@ MonoBehaviour:
   okayText: {fileID: 1456074392}
   badText: {fileID: 497311663}
   terribleText: {fileID: 138085900}
-  comboText: {fileID: 1353267388}
-  healthText: {fileID: 663722914}
+  comboText: {fileID: 1353267390}
+  healthText: {fileID: 663722916}
 --- !u!1 &1127558546
 GameObject:
   m_ObjectHideFlags: 0
