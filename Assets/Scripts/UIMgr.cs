@@ -47,6 +47,7 @@ public class UIMgr : MonoBehaviour
     public void SetComboText(int currentCombo)
     {
         comboText.text = currentCombo.ToString();
+        FinalDisplay.inst.UpdateCombo(currentCombo);
     }
 
     public void UpdateScore(int score)

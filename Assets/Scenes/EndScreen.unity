@@ -1729,7 +1729,7 @@ GameObject:
   - component: {fileID: 1078995575}
   - component: {fileID: 1078995574}
   m_Layer: 5
-  m_Name: Total Good Label Text
+  m_Name: Total Great Label Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1785,7 +1785,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Good: '
+  m_Text: 'Great: '
 --- !u!222 &1078995575
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1950,7 +1950,7 @@ GameObject:
   - component: {fileID: 1178983294}
   - component: {fileID: 1178983293}
   m_Layer: 5
-  m_Name: Total Hit Text
+  m_Name: Total Perfect Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2027,7 +2027,7 @@ GameObject:
   - component: {fileID: 1214597931}
   - component: {fileID: 1214597930}
   m_Layer: 5
-  m_Name: Total Good Text
+  m_Name: Total Great Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3138,7 +3138,7 @@ GameObject:
   - component: {fileID: 2084900614}
   - component: {fileID: 2084900613}
   m_Layer: 5
-  m_Name: Total Hit Label Text
+  m_Name: Total Perfect Label Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3237,12 +3237,20 @@ MonoBehaviour:
   imgB: {fileID: 1157782569}
   imgC: {fileID: 1061645048}
   imgF: {fileID: 1255392834}
+  scoreText: {fileID: 1714850384}
+  maxComboText: {fileID: 1863704678}
+  perfectText: {fileID: 1178983293}
+  greatText: {fileID: 1214597930}
+  okayText: {fileID: 1725073106}
+  badText: {fileID: 288682685}
+  terribleText: {fileID: 1383520474}
   numPerfects: 0
   numGreats: 0
   numOkays: 0
   numBads: 0
   numTerribles: 0
-  score: 0
+  score: 2147483647
+  maxCombo: 0
 --- !u!4 &2132248544
 Transform:
   m_ObjectHideFlags: 0
