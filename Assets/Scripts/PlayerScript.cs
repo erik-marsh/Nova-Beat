@@ -7,14 +7,21 @@ public class PlayerScript : MonoBehaviour
 {
 	public int playerHealth = 3;
 
+    public SpriteRenderer spriteRenderer;
+    public Sprite[] healthSprite;
+
 	private void Start()
 	{
 		// update to display initial health on UI
 		UIMgr.inst.SetPlayerHealth(playerHealth);
+        spriteRenderer = gameObject.GetComponent<SpriteRenderer>(); //attaches sprite renderer
 	}
 
 	private void Update()
 	{
+        //update sprite to match health
+        spriteRenderer.sprite = healthSprite[playerHealth - 1];
+
 		if (playerHealth <= 0)
 		{
 			// kill player, enter game over screen
