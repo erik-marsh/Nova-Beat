@@ -52,6 +52,7 @@ public class ReflectableLaserScript : MonoBehaviour
 						{
 							// fire back
 							UIMgr.inst.UpdateScore(i);
+							UIMgr.inst.UpdateCombo(true);
 							Debug.Log("Score update");
 							ent.velocity = -ent.velocity;
 							isFiringBack = true;

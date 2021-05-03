@@ -36,5 +36,6 @@ public class PlayerScript : MonoBehaviour
 		Debug.Log("Player Collided");
 		playerHealth--;
 		UIMgr.inst.SetPlayerHealth(playerHealth);
+		UIMgr.inst.UpdateCombo(false);
 	}
 }

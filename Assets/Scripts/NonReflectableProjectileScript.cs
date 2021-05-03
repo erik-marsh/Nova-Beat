@@ -51,12 +51,14 @@ public class NonReflectableProjectileScript : MonoBehaviour
 				if (bottomMissZone.bounds.Contains(projectileTip))
 				{
 					stopCheckingHitreg = true;
+					UIMgr.inst.UpdateCombo(false);
 					return;
 				}
 
 				if (bottomScoreZones[i].bounds.Contains(projectileTip))
 				{
 					UIMgr.inst.UpdateScore(i);
+					UIMgr.inst.UpdateCombo(true);
 					Debug.Log("Score update on bottomScoreZone " + i);
 					stopCheckingHitreg = true;
 					return;
@@ -71,12 +73,14 @@ public class NonReflectableProjectileScript : MonoBehaviour
 				if (topMissZone.bounds.Contains(projectileTip))
 				{
 					stopCheckingHitreg = true;
+					UIMgr.inst.UpdateCombo(false);
 					return;
 				}
 
 				if (topScoreZones[i].bounds.Contains(projectileTip))
 				{
 					UIMgr.inst.UpdateScore(i);
+					UIMgr.inst.UpdateCombo(true);
 					Debug.Log("Score update on topScoreZone " + i);
 					stopCheckingHitreg = true;
 					return;

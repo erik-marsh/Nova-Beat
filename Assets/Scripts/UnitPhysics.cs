@@ -8,12 +8,12 @@ public class UnitPhysics : MonoBehaviour
 
 	private void Start()
 	{
-		entity.position = transform.localPosition;
+		entity.position = transform.position;
 	}
 
 	private void Update()
 	{
 		entity.position += entity.velocity * Time.deltaTime;
-		transform.localPosition = entity.position;
+		transform.position = entity.position;
 	}
 }

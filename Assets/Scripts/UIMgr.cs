@@ -16,6 +16,8 @@ public class UIMgr : MonoBehaviour
     public Text comboText;
     public Text healthText;
 
+    public int combo;
+
 	private void Awake()
 	{
 		inst = this;
@@ -49,6 +51,20 @@ public class UIMgr : MonoBehaviour
         comboText.text = currentCombo.ToString();
         FinalDisplay.inst.UpdateCombo(currentCombo);
     }
+
+    public void UpdateCombo(bool shouldIncrement)
+	{
+        if (shouldIncrement)
+		{
+            combo++;
+            SetComboText(combo);
+		}
+        else
+		{
+            combo = 0;
+            SetComboText(combo);
+		}
+	}
 
     public void UpdateScore(int score)
     {
