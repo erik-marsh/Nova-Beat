@@ -10,9 +10,8 @@ public class NonReflectableProjectileScript : MonoBehaviour
 	private Renderer rend;
 	private List<BoxCollider> topScoreZones;
 	private List<BoxCollider> bottomScoreZones;
-	private BoxCollider topMissZone;
-	private BoxCollider bottomMissZone;
-
+	private List<BoxCollider> topMissZones;
+	private List<BoxCollider> bottomMissZones;
 	private bool stopCheckingHitreg = false;
 
 	private void Awake()
@@ -26,8 +25,17 @@ public class NonReflectableProjectileScript : MonoBehaviour
 	{
 		topScoreZones = ControlMgr.inst.topScoreZones;
 		bottomScoreZones = ControlMgr.inst.bottomScoreZones;
-		topMissZone = ControlMgr.inst.topMissZone;
-		bottomMissZone = ControlMgr.inst.bottomMissZone;
+		//topForwardMissZone = ControlMgr.inst.topForwardMissZone;
+		//bottomForwardMissZone = ControlMgr.inst.bottomForwardMissZone;
+		topMissZones = new List<BoxCollider>();
+		topMissZones.Add(ControlMgr.inst.topForwardMissZone);
+		topMissZones.Add(ControlMgr.inst.topBackwardNearMissZone);
+		topMissZones.Add(ControlMgr.inst.topBackwardMissZone);
+		
+		bottomMissZones = new List<BoxCollider>();
+		bottomMissZones.Add(ControlMgr.inst.bottomForwardMissZone);
+		bottomMissZones.Add(ControlMgr.inst.bottomBackwardNearMissZone);
+		bottomMissZones.Add(ControlMgr.inst.bottomBackwardMissZone);
 	}
 
 	private void Update()
@@ -45,16 +53,20 @@ public class NonReflectableProjectileScript : MonoBehaviour
 		// test if moving up should give score
 		if (Input.GetKey(KeyCode.UpArrow))
 		{
-			//Debug.Log("uparrow");
-			for (int i = 0; i < bottomScoreZones.Count; i++)
+			for (int i = 0; i < bottomMissZones.Count; i++)
 			{
-				if (bottomMissZone.bounds.Contains(projectileTip))
+				if (bottomMissZones[i].bounds.Contains(projectileTip))
 				{
 					stopCheckingHitreg = true;
+					UIMgr.inst.UpdateScore(-1);
 					UIMgr.inst.UpdateCombo(false);
+					Debug.Log("Player missed at bottom miss zone " + i);
 					return;
 				}
+			}
 
+			for (int i = 0; i < bottomScoreZones.Count; i++)
+			{
 				if (bottomScoreZones[i].bounds.Contains(projectileTip))
 				{
 					UIMgr.inst.UpdateScore(i);
@@ -67,16 +79,20 @@ public class NonReflectableProjectileScript : MonoBehaviour
 		}
 		if (Input.GetKey(KeyCode.DownArrow))
 		{
-			//Debug.Log("downarrow");
-			for (int i = 0; i < topScoreZones.Count; i++)
+			for (int i = 0; i < topMissZones.Count; i++)
 			{
-				if (topMissZone.bounds.Contains(projectileTip))
+				if (topMissZones[i].bounds.Contains(projectileTip))
 				{
 					stopCheckingHitreg = true;
+					UIMgr.inst.UpdateScore(-1);
 					UIMgr.inst.UpdateCombo(false);
+					Debug.Log("Player missed at top miss zone " + i);
 					return;
 				}
+			}
 
+			for (int i = 0; i < topScoreZones.Count; i++)
+			{
 				if (topScoreZones[i].bounds.Contains(projectileTip))
 				{
 					UIMgr.inst.UpdateScore(i);

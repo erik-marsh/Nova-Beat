@@ -16,8 +16,12 @@ public class ControlMgr : MonoBehaviour
 	public List<BoxCollider> reflectionScoreZones = new List<BoxCollider>();
 	public List<BoxCollider> topScoreZones = new List<BoxCollider>();
 	public List<BoxCollider> bottomScoreZones = new List<BoxCollider>();
-	public BoxCollider topMissZone;
-	public BoxCollider bottomMissZone;
+	public BoxCollider topForwardMissZone;
+	public BoxCollider topBackwardNearMissZone;
+	public BoxCollider topBackwardMissZone;
+	public BoxCollider bottomForwardMissZone;
+	public BoxCollider bottomBackwardNearMissZone;
+	public BoxCollider bottomBackwardMissZone;
 
 	public float moveDistance = 1.76f;
 

@@ -98,6 +98,10 @@ public class UIMgr : MonoBehaviour
                 ScoresOff();
                 terribleText.SetActive(true);
                 break;
+            case -1: // simply turns off score text
+                // add miss text?
+                ScoresOff();
+                break;
             default:
                 Debug.Log("UIMGR:: UpdateScore called with out of bounds value");
                 ScoresOff();
