@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ControlMgr : MonoBehaviour
 {
@@ -58,6 +59,11 @@ public class ControlMgr : MonoBehaviour
 				Application.Quit();
 			#endif
 		}
+        if (Input.GetKeyDown(KeyCode.F))
+        {
+            UIMgr.inst.scoreCounterScript.SaveScores();
+            SceneManager.LoadScene("EndScreen");
+        }
 	}
 
 	void RunPlayerControls()

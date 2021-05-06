@@ -23,6 +23,7 @@ public class PlayerScript : MonoBehaviour
         
 		if (playerHealth <= 0)
 		{
+            UIMgr.inst.scoreCounterScript.SaveScores();
             SceneManager.LoadScene("EndScreen");
 		}
         else

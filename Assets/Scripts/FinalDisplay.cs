@@ -25,11 +25,11 @@ public class FinalDisplay : MonoBehaviour
     public Text terribleText;
 
     //variables to keep track of score
-    public int numPerfects;
-    public int numGreats;
-    public int numOkays;
-    public int numBads;
-    public int numTerribles;
+    public int finalPerfects;
+    public int finalGreats;
+    public int finalOkays;
+    public int finalBads;
+    public int finalTerribles;
 
     public int score;
     public int maxCombo;
@@ -45,14 +45,14 @@ public class FinalDisplay : MonoBehaviour
         imgC.SetActive(false);
         imgF.SetActive(false);
 
-        //all score tracking variables should be set to zero
-        numPerfects = 0;
-        numGreats = 0;
-        numOkays = 0;
-        numBads = 0;
-        numTerribles = 0;
-        score = 0;
-        maxCombo = 0;
+        //load all score variables
+        finalPerfects = PlayerPrefs.GetInt("perfects");
+        finalGreats = PlayerPrefs.GetInt("greats");
+        finalOkays = PlayerPrefs.GetInt("okays");
+        finalBads = PlayerPrefs.GetInt("bads");
+        finalTerribles = PlayerPrefs.GetInt("terribles");
+        score = 0; //will be calculated here
+        maxCombo = PlayerPrefs.GetInt("maxCombo");
 
         //SetTestScore(); //FOR TESTING ONLY, DO NOT INCLUDE IN FINAL PROJECT
 
@@ -64,14 +64,6 @@ public class FinalDisplay : MonoBehaviour
     void Update()
     {
 
-    }
-
-    public void UpdateCombo(int combo)
-    {
-        if (combo > maxCombo)
-        {
-            maxCombo = combo;
-        }
     }
 
     void DisplayGrade()
@@ -101,10 +93,10 @@ public class FinalDisplay : MonoBehaviour
 
     void CalculateScore()
     {
-        score += numPerfects * 500;
-        score += numGreats * 350;
-        score += numOkays * 200;
-        score += numBads * 100;
+        score += finalPerfects * 500;
+        score += finalGreats * 350;
+        score += finalOkays * 200;
+        score += finalBads * 100;
         //Terribles do not give points
     }
 
@@ -113,18 +105,18 @@ public class FinalDisplay : MonoBehaviour
         scoreText.text = score.ToString();
         maxComboText.text = maxCombo.ToString();
 
-        perfectText.text = numPerfects.ToString();
-        greatText.text = numGreats.ToString();
-        okayText.text = numOkays.ToString();
-        badText.text = numBads.ToString();
-        terribleText.text = numTerribles.ToString();
+        perfectText.text = finalPerfects.ToString();
+        greatText.text = finalGreats.ToString();
+        okayText.text = finalOkays.ToString();
+        badText.text = finalBads.ToString();
+        terribleText.text = finalTerribles.ToString();
     }
 
     void SetTestScore()
     {
-        numPerfects = 100;
-        numGreats = 30;
-        numBads = 3;
+        finalPerfects = 100;
+        finalGreats = 30;
+        finalBads = 3;
     }
 
 }

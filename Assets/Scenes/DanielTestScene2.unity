@@ -1476,6 +1476,7 @@ MonoBehaviour:
   comboText: {fileID: 1508564822}
   healthBar: {fileID: 511441015}
   combo: 0
+  scoreCounterScript: {fileID: 1638200953}
 --- !u!1 &207273790
 GameObject:
   m_ObjectHideFlags: 0
@@ -3352,68 +3353,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 319900788}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &323182923
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 323182924}
-  - component: {fileID: 323182925}
-  m_Layer: 0
-  m_Name: ScoreMgr
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &323182924
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 323182923}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1193538938}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &323182925
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 323182923}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fd0d47a7c17becd4b8745795029186f8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  imgPerfect: {fileID: 0}
-  imgA: {fileID: 0}
-  imgB: {fileID: 0}
-  imgC: {fileID: 0}
-  imgF: {fileID: 0}
-  scoreText: {fileID: 0}
-  maxComboText: {fileID: 0}
-  perfectText: {fileID: 0}
-  greatText: {fileID: 0}
-  okayText: {fileID: 0}
-  badText: {fileID: 0}
-  terribleText: {fileID: 0}
-  numPerfects: 0
-  numGreats: 0
-  numOkays: 0
-  numBads: 0
-  numTerribles: 0
-  score: 0
-  maxCombo: 0
 --- !u!1 &329442424
 GameObject:
   m_ObjectHideFlags: 0
@@ -15905,7 +15844,7 @@ Transform:
   - {fileID: 490174698}
   - {fileID: 1300529728}
   - {fileID: 176947055}
-  - {fileID: 323182924}
+  - {fileID: 1638200952}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -21407,6 +21346,55 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1606944369}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1638200951
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1638200952}
+  - component: {fileID: 1638200953}
+  m_Layer: 0
+  m_Name: ScoreCounter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1638200952
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1638200951}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 381, y: 214.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1193538938}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1638200953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1638200951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fdeb3eab433938347932d6c35d171e1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numPerfects: 0
+  numGreats: 0
+  numOkays: 0
+  numBads: 0
+  numTerribles: 0
+  maxCombo: 0
 --- !u!1 &1644087491
 GameObject:
   m_ObjectHideFlags: 0

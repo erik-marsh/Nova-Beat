@@ -18,7 +18,9 @@ public class UIMgr : MonoBehaviour
 
     public int combo;
 
-	private void Awake()
+    public ScoreCounter scoreCounterScript;
+
+    private void Awake()
 	{
 		inst = this;
 	}
@@ -44,7 +46,7 @@ public class UIMgr : MonoBehaviour
     public void SetComboText(int currentCombo)
     {
         comboText.text = currentCombo.ToString();
-        FinalDisplay.inst.UpdateCombo(currentCombo);
+        scoreCounterScript.UpdateCombo(currentCombo);
     }
 
     public void UpdateCombo(bool shouldIncrement)
@@ -66,27 +68,27 @@ public class UIMgr : MonoBehaviour
         switch(score)
         {
             case 0: //perfect
-                FinalDisplay.inst.numPerfects++;
+                scoreCounterScript.numPerfects++;
                 ScoresOff();
                 perfectText.SetActive(true);
                 break;
             case 1: //great
-                FinalDisplay.inst.numGreats++;
+                scoreCounterScript.numGreats++;
                 ScoresOff();
                 greatText.SetActive(true);
                 break;
             case 2: //okay
-                FinalDisplay.inst.numOkays++;
+                scoreCounterScript.numOkays++;
                 ScoresOff();
                 okayText.SetActive(true);
                 break;
             case 3: //bad
-                FinalDisplay.inst.numBads++;
+                scoreCounterScript.numBads++;
                 ScoresOff();
                 badText.SetActive(true);
                 break;
             case 4: //terrible
-                FinalDisplay.inst.numTerribles++;
+                scoreCounterScript.numTerribles++;
                 ScoresOff();
                 terribleText.SetActive(true);
                 break;
