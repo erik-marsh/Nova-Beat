@@ -14,7 +14,7 @@ public class UIMgr : MonoBehaviour
     public GameObject terribleText;
 
     public Text comboText;
-    public Text healthText;
+    public Image healthBar;
 
     public int combo;
 
@@ -25,28 +25,20 @@ public class UIMgr : MonoBehaviour
 
 	public void SetPlayerHealth(int playerHealth)
 	{
-        healthText.text = playerHealth.ToString();
-        /*
-        switch (playerHealth)
+        float value = (playerHealth / 10f);
+        healthBar.fillAmount = value;
+        if (healthBar.fillAmount < 0.3f)
         {
-            case 3:
-                healthText.text = "OOO";
-                break;
-            case 2:
-                healthText.text = "OO  ";
-                break;
-            case 1:
-                healthText.text = "O    ";
-                break;
-            case 0:
-                healthText.text = "DEAD";
-                //should be dead, go to end screen, doesn't matter
-                break;
-            default:
-                Debug.Log("UIMGR:: SetPlayerHealth called with out of bounds value");
-                break;
+            healthBar.color = Color.red;
         }
-        */
+        else if (healthBar.fillAmount < 0.6f)
+        {
+            healthBar.color = Color.yellow;
+        }
+        else
+        {
+            healthBar.color = Color.green;
+        }
     }
 
     public void SetComboText(int currentCombo)
