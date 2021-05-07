@@ -14,6 +14,7 @@ public class AudioMgr : MonoBehaviour
     void Awake()
     {
         startSceneTime = Time.time;
+        gamePlayMusic.volume = PlayerPrefs.GetFloat("volume");
     }
 
     // Update is called once per frame
