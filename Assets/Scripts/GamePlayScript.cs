@@ -17,9 +17,6 @@ public class GamePlayScript : MonoBehaviour
 
     public bool createMode = false;
 
-    private int currentBeat = 0;
-    private float currentTime = 0f;
-
     private void Update()
     {
         if (createMode)

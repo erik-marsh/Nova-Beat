@@ -33,7 +33,7 @@ public class ReflectableLaserScript : MonoBehaviour
 				{
 					if (Input.GetKeyDown(KeyCode.Z) && scoreZones[i].bounds.Contains(projectileTip))
 					{
-						Debug.Log("hit box " + i);
+						//Debug.Log("hit box " + i);
 						initialHitRegistered = true;
 					}
 				}
@@ -53,7 +53,7 @@ public class ReflectableLaserScript : MonoBehaviour
 							// fire back
 							UIMgr.inst.UpdateScore(i);
 							UIMgr.inst.UpdateCombo(true);
-							Debug.Log("Score update");
+							//Debug.Log("Score update");
 							ent.velocity = -ent.velocity;
 							isFiringBack = true;
 						}

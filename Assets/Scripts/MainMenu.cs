@@ -7,13 +7,13 @@ public class MainMenu : MonoBehaviour
 {
     public void PlayGame()
     {
-        Debug.Log("Play game");
+        //Debug.Log("Play game");
         SceneManager.LoadScene("DanielTestScene2");
     }
 
     public void QuitGame()
     {
-        Debug.Log("Quit");
+        //Debug.Log("Quit");
 #if UNITY_EDITOR
         UnityEditor.EditorApplication.isPlaying = false;
 #else
@@ -23,7 +23,7 @@ public class MainMenu : MonoBehaviour
 
     public void LoadMainMenu()
     {
-        Debug.Log("Main menu");
+        //Debug.Log("Main menu");
         SceneManager.LoadScene("MainMenu");
     }
 }

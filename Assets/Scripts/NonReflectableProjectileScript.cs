@@ -60,7 +60,7 @@ public class NonReflectableProjectileScript : MonoBehaviour
 					stopCheckingHitreg = true;
 					UIMgr.inst.UpdateScore(-1);
 					UIMgr.inst.UpdateCombo(false);
-					Debug.Log("Player missed at bottom miss zone " + i);
+					//Debug.Log("Player missed at bottom miss zone " + i);
 					return;
 				}
 			}
@@ -71,7 +71,7 @@ public class NonReflectableProjectileScript : MonoBehaviour
 				{
 					UIMgr.inst.UpdateScore(i);
 					UIMgr.inst.UpdateCombo(true);
-					Debug.Log("Score update on bottomScoreZone " + i);
+					//Debug.Log("Score update on bottomScoreZone " + i);
 					stopCheckingHitreg = true;
 					return;
 				}
@@ -86,7 +86,7 @@ public class NonReflectableProjectileScript : MonoBehaviour
 					stopCheckingHitreg = true;
 					UIMgr.inst.UpdateScore(-1);
 					UIMgr.inst.UpdateCombo(false);
-					Debug.Log("Player missed at top miss zone " + i);
+					//Debug.Log("Player missed at top miss zone " + i);
 					return;
 				}
 			}
@@ -97,7 +97,7 @@ public class NonReflectableProjectileScript : MonoBehaviour
 				{
 					UIMgr.inst.UpdateScore(i);
 					UIMgr.inst.UpdateCombo(true);
-					Debug.Log("Score update on topScoreZone " + i);
+					//Debug.Log("Score update on topScoreZone " + i);
 					stopCheckingHitreg = true;
 					return;
 				}
