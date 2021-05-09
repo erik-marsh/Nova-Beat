@@ -55,6 +55,7 @@ public class ReflectableLaserScript : MonoBehaviour
 							UIMgr.inst.UpdateCombo(true);
 							//Debug.Log("Score update");
 							ent.velocity = -ent.velocity;
+							ent.position.y = 1.76f;
 							isFiringBack = true;
 						}
 					}
