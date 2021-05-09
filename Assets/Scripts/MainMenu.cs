@@ -8,7 +8,7 @@ public class MainMenu : MonoBehaviour
     public void PlayGame()
     {
         //Debug.Log("Play game");
-        SceneManager.LoadScene("DanielTestScene2");
+        SceneManager.LoadScene("Level1Equinoxes");
     }
 
     public void QuitGame()

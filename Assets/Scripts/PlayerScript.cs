@@ -36,8 +36,8 @@ public class PlayerScript : MonoBehaviour
 
 	private void OnTriggerEnter(Collider collision)
 	{
-		Debug.Log("Player Collided");
-		playerHealth--;
+		//Debug.Log("Player Collided");
+		//playerHealth--;
 		UIMgr.inst.SetPlayerHealth(playerHealth);
 		UIMgr.inst.UpdateCombo(false);
 	}

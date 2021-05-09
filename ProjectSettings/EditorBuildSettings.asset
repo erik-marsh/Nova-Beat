@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: ba7869dd98bd75547906940a622debaf
   - enabled: 1
-    path: Assets/Scenes/DanielTestScene2.unity
+    path: Assets/Scenes/Level1Equinoxes.unity
     guid: 7336f7d0aee97fb409f078f31fc19f67
   - enabled: 1
     path: Assets/Scenes/EndScreen.unity
