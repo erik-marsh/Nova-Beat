@@ -23,19 +23,19 @@ public class NonReflectableProjectileScript : MonoBehaviour
 
 	private void Start()
 	{
-		topScoreZones = ControlMgr.inst.topScoreZones;
-		bottomScoreZones = ControlMgr.inst.bottomScoreZones;
-		//topForwardMissZone = ControlMgr.inst.topForwardMissZone;
-		//bottomForwardMissZone = ControlMgr.inst.bottomForwardMissZone;
+		topScoreZones = PlayerHitboxes.inst.topScoreZones;
+		bottomScoreZones = PlayerHitboxes.inst.bottomScoreZones;
+		//topForwardMissZone = PlayerHitboxes.inst.topForwardMissZone;
+		//bottomForwardMissZone = PlayerHitboxes.inst.bottomForwardMissZone;
 		topMissZones = new List<BoxCollider>();
-		topMissZones.Add(ControlMgr.inst.topForwardMissZone);
-		topMissZones.Add(ControlMgr.inst.topBackwardNearMissZone);
-		topMissZones.Add(ControlMgr.inst.topBackwardMissZone);
+		topMissZones.Add(PlayerHitboxes.inst.topForwardMissZone);
+		topMissZones.Add(PlayerHitboxes.inst.topBackwardNearMissZone);
+		topMissZones.Add(PlayerHitboxes.inst.topBackwardMissZone);
 		
 		bottomMissZones = new List<BoxCollider>();
-		bottomMissZones.Add(ControlMgr.inst.bottomForwardMissZone);
-		bottomMissZones.Add(ControlMgr.inst.bottomBackwardNearMissZone);
-		bottomMissZones.Add(ControlMgr.inst.bottomBackwardMissZone);
+		bottomMissZones.Add(PlayerHitboxes.inst.bottomForwardMissZone);
+		bottomMissZones.Add(PlayerHitboxes.inst.bottomBackwardNearMissZone);
+		bottomMissZones.Add(PlayerHitboxes.inst.bottomBackwardMissZone);
 	}
 
 	private void Update()

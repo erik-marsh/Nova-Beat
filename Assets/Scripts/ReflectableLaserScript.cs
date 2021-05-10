@@ -15,10 +15,10 @@ public class ReflectableLaserScript : MonoBehaviour
 
 	private void Start()
 	{
-		scoreZones = ControlMgr.inst.reflectionScoreZones;
-		missZones.Add(ControlMgr.inst.reflectionForwardMissZone);
-		missZones.Add(ControlMgr.inst.reflectionBackwardNearMissZone);
-		missZones.Add(ControlMgr.inst.reflectionBackwardMissZone);
+		scoreZones = PlayerHitboxes.inst.reflectionScoreZones;
+		missZones.Add(PlayerHitboxes.inst.reflectionForwardMissZone);
+		missZones.Add(PlayerHitboxes.inst.reflectionBackwardNearMissZone);
+		missZones.Add(PlayerHitboxes.inst.reflectionBackwardMissZone);
 
 		rend = GetComponent<Renderer>();
 		ent = GetComponent<Entity381>();

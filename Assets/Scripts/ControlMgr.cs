@@ -14,20 +14,6 @@ public class ControlMgr : MonoBehaviour
 		DOWN
 	}
 
-	// artifact of an old bad design, at least they're easy to access in a singleton
-	public List<BoxCollider> reflectionScoreZones = new List<BoxCollider>();
-	public List<BoxCollider> topScoreZones = new List<BoxCollider>();
-	public List<BoxCollider> bottomScoreZones = new List<BoxCollider>();
-	public BoxCollider topForwardMissZone;
-	public BoxCollider topBackwardNearMissZone;
-	public BoxCollider topBackwardMissZone;
-	public BoxCollider bottomForwardMissZone;
-	public BoxCollider bottomBackwardNearMissZone;
-	public BoxCollider bottomBackwardMissZone;
-	public BoxCollider reflectionForwardMissZone;
-	public BoxCollider reflectionBackwardNearMissZone;
-	public BoxCollider reflectionBackwardMissZone;
-
 	public float moveDistance = 1.76f;
 
 	//private bool isUp = false;

@@ -16,7 +16,7 @@ public class ReflectableProjectileScript : MonoBehaviour
 	private void Start()
 	{
 		ent = GetComponent<Entity381>();
-		scoreZones = ControlMgr.inst.reflectionScoreZones;
+		scoreZones = PlayerHitboxes.inst.reflectionScoreZones;
 		distanceToTip = GetComponent<Renderer>().bounds.extents.magnitude;
 	}
 
