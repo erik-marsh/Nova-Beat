@@ -52,6 +52,7 @@ public class PlayerScript : MonoBehaviour
 		if (playerHealth <= 0)
 		{
             UIMgr.inst.scoreCounterScript.SaveScores();
+			AudioMgr.inst.FadeMusic();
             SceneManager.LoadScene("EndScreen");
 		}
         else

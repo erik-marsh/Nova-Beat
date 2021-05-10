@@ -9,6 +9,7 @@ public class EndScreenProjectile : MonoBehaviour
     private void OnTriggerEnter(Collider collision)
     {
         Debug.Log("EndScreenProjectile hit");
+        UIMgr.inst.scoreCounterScript.SaveScores();
         SceneManager.LoadScene("EndScreen");
     }
 }

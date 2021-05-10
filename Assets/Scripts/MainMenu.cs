@@ -5,7 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-    public void PlayLevel1()
+	private void Start()
+	{
+
+	}
+
+	public void PlayLevel1()
     {
         SceneManager.LoadScene("Level1Equinoxes");
         PlayerPrefs.SetInt("level", 1);
@@ -35,13 +40,19 @@ public class MainMenu : MonoBehaviour
 #if UNITY_EDITOR
         UnityEditor.EditorApplication.isPlaying = false;
 #else
-				Application.Quit();
+		Application.Quit();
 #endif
     }
 
     public void LoadMainMenu()
     {
         //Debug.Log("Main menu");
+        // kill audiomgr if exists (it should) to stop sound
+        GameObject audioMgr = GameObject.Find("AudioMgr");
+        if (audioMgr)
+		{
+            Destroy(audioMgr);
+		}
         SceneManager.LoadScene("MainMenu");
     }
 }

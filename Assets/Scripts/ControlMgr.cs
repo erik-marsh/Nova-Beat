@@ -135,7 +135,7 @@ public class ControlMgr : MonoBehaviour
 		player.transform.localPosition = posVector;
 
         //Shows reflection beam if player is pressing Z
-        if (Input.GetKeyDown(KeyCode.Z))
+        if (Input.GetKey(KeyCode.Z))
         {
             reflectionSprite.SetActive(true);
         }
