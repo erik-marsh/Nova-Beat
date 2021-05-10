@@ -20,6 +20,7 @@ public class PlayerScript : MonoBehaviour
 	private float invincibilityTimer = 0.0f;
 	private float blinkTimer = 0.0f;
 	private float gracePeriodTimer = 0.0f;
+    private float healthRegenTimer = 0.0f;
 	
 	private void Start()
 	{
@@ -59,6 +60,18 @@ public class PlayerScript : MonoBehaviour
             //spriteRenderer.sprite = healthSprite[playerHealth - 1];
         }
         
+        //regen health
+        if ((healthRegenTimer <= 0) && (playerHealth < 10))
+        {
+            healthRegenTimer = 10.0f;
+
+            playerHealth++;
+            UIMgr.inst.SetPlayerHealth(playerHealth);
+        }
+        else
+        {
+            healthRegenTimer -= Time.deltaTime;
+        }
 	}
 
 	private void OnTriggerEnter(Collider collision)
@@ -89,6 +102,7 @@ public class PlayerScript : MonoBehaviour
 			blinkTimer = 0.0f;
 			isInvincible = true;
 			gracePeriodEnable = false;
+            healthRegenTimer += 10.0f;
 
 			//Debug.Log("Player Collided");
 			playerHealth--;
