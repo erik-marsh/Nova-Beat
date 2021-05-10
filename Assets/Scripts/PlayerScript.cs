@@ -13,9 +13,13 @@ public class PlayerScript : MonoBehaviour
 
 	public float invincibilityLength = 2.0f;
 	public float blinkPeriod = 0.01f;
+	public float gracePeriodLength = 0.1f;
+
 	private bool isInvincible = false;
+	private bool gracePeriodEnable = false;
 	private float invincibilityTimer = 0.0f;
 	private float blinkTimer = 0.0f;
+	private float gracePeriodTimer = 0.0f;
 	
 	private void Start()
 	{
@@ -61,13 +65,35 @@ public class PlayerScript : MonoBehaviour
 	{
 		if (isInvincible) return;
 
-		invincibilityTimer = 0.0f;
-		blinkTimer = 0.0f;
-		isInvincible = true;
+		gracePeriodTimer = 0.0f;
+		gracePeriodEnable = true;
 
-		//Debug.Log("Player Collided");
-		playerHealth--;
-		UIMgr.inst.SetPlayerHealth(playerHealth);
-		UIMgr.inst.UpdateCombo(false);
+
+		//invincibilityTimer = 0.0f;
+		//blinkTimer = 0.0f;
+		//isInvincible = true;
+
+		////Debug.Log("Player Collided");
+		//playerHealth--;
+		//UIMgr.inst.SetPlayerHealth(playerHealth);
+		//UIMgr.inst.UpdateCombo(false);
+	}
+
+	private void OnTriggerStay(Collider other)
+	{
+		gracePeriodTimer += Time.deltaTime;
+
+		if (gracePeriodEnable && gracePeriodTimer >= gracePeriodLength)
+		{
+			invincibilityTimer = 0.0f;
+			blinkTimer = 0.0f;
+			isInvincible = true;
+			gracePeriodEnable = false;
+
+			//Debug.Log("Player Collided");
+			playerHealth--;
+			UIMgr.inst.SetPlayerHealth(playerHealth);
+			UIMgr.inst.UpdateCombo(false);
+		}
 	}
 }
