@@ -648,6 +648,12 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 27558014}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &38770827 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1836542404810992761, guid: 1570cf154b5b5aa4cb9c73988d1cac58,
+    type: 3}
+  m_PrefabInstance: {fileID: 470971290}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &57000058
 GameObject:
   m_ObjectHideFlags: 0
@@ -1624,6 +1630,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveDistance: 1.76
   beatSound: {fileID: 117881202}
+  reflectionSprite: {fileID: 38770827}
 --- !u!82 &117881202
 AudioSource:
   m_ObjectHideFlags: 0

@@ -3831,6 +3831,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveDistance: 1.76
   beatSound: {fileID: 117881202}
+  reflectionSprite: {fileID: 2024736610}
 --- !u!82 &117881202
 AudioSource:
   m_ObjectHideFlags: 0
@@ -58421,6 +58422,12 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2021999422}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &2024736610 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1836542404810992761, guid: 1570cf154b5b5aa4cb9c73988d1cac58,
+    type: 3}
+  m_PrefabInstance: {fileID: 1960532236}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2025015880
 GameObject:
   m_ObjectHideFlags: 0

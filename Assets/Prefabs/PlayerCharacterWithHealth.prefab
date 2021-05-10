@@ -497,6 +497,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerHealth: 3
+  spriteRenderer: {fileID: 0}
+  healthSprite: []
+  invincibilityLength: 2
+  blinkPeriod: 0.01
 --- !u!1001 &6252157553363207688
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -507,7 +511,7 @@ PrefabInstance:
     - target: {fileID: 5199678100387678405, guid: 84875f2211c82bf4e8d3e98d85ddf422,
         type: 3}
       propertyPath: m_Name
-      value: Player Character
+      value: PlayerCharacterWithHealth
       objectReference: {fileID: 0}
     - target: {fileID: 5441641386701489023, guid: 84875f2211c82bf4e8d3e98d85ddf422,
         type: 3}
