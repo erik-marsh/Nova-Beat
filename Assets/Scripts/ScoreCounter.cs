@@ -36,6 +36,16 @@ public class ScoreCounter : MonoBehaviour
         maxCombo = 0;
 
         currLevel = PlayerPrefs.GetInt("level");
+
+        //saves scores- all set to zero to start
+        PlayerPrefs.SetInt("perfects", numPerfects);
+        PlayerPrefs.SetInt("greats", numGreats);
+        PlayerPrefs.SetInt("okays", numOkays);
+        PlayerPrefs.SetInt("bads", numBads);
+        PlayerPrefs.SetInt("terribles", numTerribles);
+
+        PlayerPrefs.SetInt("maxCombo", maxCombo);
+        PlayerPrefs.SetInt("playedLevel", currLevel);
     }
 
     public void SaveScores()
