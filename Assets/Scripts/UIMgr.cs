@@ -12,6 +12,7 @@ public class UIMgr : MonoBehaviour
     public GameObject okayText;
     public GameObject badText;
     public GameObject terribleText;
+    public GameObject missText;
 
     public Text comboText;
     public Image healthBar;
@@ -93,8 +94,8 @@ public class UIMgr : MonoBehaviour
                 terribleText.SetActive(true);
                 break;
             case -1: // simply turns off score text
-                // add miss text?
                 ScoresOff();
+                missText.SetActive(true);
                 break;
             default:
                 Debug.Log("UIMGR:: UpdateScore called with out of bounds value");
@@ -111,5 +112,6 @@ public class UIMgr : MonoBehaviour
         okayText.SetActive(false);
         badText.SetActive(false);
         terribleText.SetActive(false);
+        missText.SetActive(false);
     }
 }

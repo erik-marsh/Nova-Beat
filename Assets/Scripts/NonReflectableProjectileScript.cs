@@ -46,6 +46,7 @@ public class NonReflectableProjectileScript : MonoBehaviour
 
 	// note the LateUpdate, this ensures the ship has moved before testing the top/bottom hitboxes
 	// if the order of calls to Update was well-defined, we could use the reflectionScoreZones
+	// ... my apologies to whoever has to read this code
 	private void LateUpdate()
 	{
 		if (stopCheckingHitreg) return;
@@ -58,8 +59,18 @@ public class NonReflectableProjectileScript : MonoBehaviour
 				if (bottomMissZones[i].bounds.Contains(projectileTip))
 				{
 					stopCheckingHitreg = true;
-					UIMgr.inst.UpdateScore(-1);
-					UIMgr.inst.UpdateCombo(false);
+
+					// give the player a "Great!" on a near miss
+					if (i == 1)
+					{
+						UIMgr.inst.UpdateScore(1);
+						UIMgr.inst.UpdateCombo(true);
+					}
+					else
+					{
+						UIMgr.inst.UpdateScore(-1);
+						UIMgr.inst.UpdateCombo(false);
+					}
 					//Debug.Log("Player missed at bottom miss zone " + i);
 					return;
 				}
@@ -84,8 +95,18 @@ public class NonReflectableProjectileScript : MonoBehaviour
 				if (topMissZones[i].bounds.Contains(projectileTip))
 				{
 					stopCheckingHitreg = true;
-					UIMgr.inst.UpdateScore(-1);
-					UIMgr.inst.UpdateCombo(false);
+
+					// give the player a "Great!" on a near miss
+					if (i == 1)
+					{
+						UIMgr.inst.UpdateScore(1);
+						UIMgr.inst.UpdateCombo(true);
+					}
+					else
+					{
+						UIMgr.inst.UpdateScore(-1);
+						UIMgr.inst.UpdateCombo(false);
+					}
 					//Debug.Log("Player missed at top miss zone " + i);
 					return;
 				}
