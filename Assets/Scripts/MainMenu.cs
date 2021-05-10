@@ -8,21 +8,25 @@ public class MainMenu : MonoBehaviour
     public void PlayLevel1()
     {
         SceneManager.LoadScene("Level1Equinoxes");
+        PlayerPrefs.SetInt("level", 1);
     }
 
     public void PlayLevel2()
     {
         SceneManager.LoadScene("Level2Quantum");
+        PlayerPrefs.SetInt("level", 2);
     }
 
     public void PlayLevel3()
     {
         SceneManager.LoadScene("Level3Hours");
+        PlayerPrefs.SetInt("level", 3);
     }
 
     public void PlayLevel4()
     {
         SceneManager.LoadScene("Level4Flamingo");
+        PlayerPrefs.SetInt("level", 4);
     }
 
     public void QuitGame()

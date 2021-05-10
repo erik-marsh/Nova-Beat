@@ -14,6 +14,7 @@ public class ScoreCounter : MonoBehaviour
     public int numTerribles;
 
     public int maxCombo;
+    public int currLevel;
 
     public void UpdateCombo(int combo)
     {
@@ -33,6 +34,8 @@ public class ScoreCounter : MonoBehaviour
         numTerribles = 0;
 
         maxCombo = 0;
+
+        currLevel = PlayerPrefs.GetInt("level");
     }
 
     public void SaveScores()
@@ -45,6 +48,7 @@ public class ScoreCounter : MonoBehaviour
         PlayerPrefs.SetInt("terribles", numTerribles);
 
         PlayerPrefs.SetInt("maxCombo", maxCombo);
+        PlayerPrefs.SetInt("playedLevel", currLevel);
     }
 
 }
