@@ -5,10 +5,24 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-    public void PlayGame()
+    public void PlayLevel1()
     {
-        //Debug.Log("Play game");
         SceneManager.LoadScene("Level1Equinoxes");
+    }
+
+    public void PlayLevel2()
+    {
+        SceneManager.LoadScene("Level2Quantum");
+    }
+
+    public void PlayLevel3()
+    {
+        SceneManager.LoadScene("Level3Hours");
+    }
+
+    public void PlayLevel4()
+    {
+        SceneManager.LoadScene("Level4Flamingo");
     }
 
     public void QuitGame()
