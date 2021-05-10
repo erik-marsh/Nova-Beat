@@ -21,6 +21,7 @@ public class ControlMgr : MonoBehaviour
 	private PlayerPosition playerState = PlayerPosition.CENTER;
 
     public AudioSource beatSound;
+	public AudioSource reflectSound;
 
     public GameObject reflectionSprite;
 
@@ -133,6 +134,11 @@ public class ControlMgr : MonoBehaviour
 
 		// update position, finally
 		player.transform.localPosition = posVector;
+
+		if (Input.GetKeyDown(KeyCode.Z))
+		{
+			reflectSound.Play();
+		}
 
         //Shows reflection beam if player is pressing Z
         if (Input.GetKey(KeyCode.Z))
